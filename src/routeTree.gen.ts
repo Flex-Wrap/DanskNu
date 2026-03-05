@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as QuizRouteImport } from './routes/quiz'
 import { Route as NewsletterRouteImport } from './routes/newsletter'
 import { Route as InfoRouteImport } from './routes/info'
+import { Route as ApplicationRequirementsRouteImport } from './routes/application-requirements'
 import { Route as IndexRouteImport } from './routes/index'
 
 const QuizRoute = QuizRouteImport.update({
@@ -29,6 +30,11 @@ const InfoRoute = InfoRouteImport.update({
   path: '/info',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApplicationRequirementsRoute = ApplicationRequirementsRouteImport.update({
+  id: '/application-requirements',
+  path: '/application-requirements',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -37,12 +43,14 @@ const IndexRoute = IndexRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/application-requirements': typeof ApplicationRequirementsRoute
   '/info': typeof InfoRoute
   '/newsletter': typeof NewsletterRoute
   '/quiz': typeof QuizRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/application-requirements': typeof ApplicationRequirementsRoute
   '/info': typeof InfoRoute
   '/newsletter': typeof NewsletterRoute
   '/quiz': typeof QuizRoute
@@ -50,20 +58,33 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/application-requirements': typeof ApplicationRequirementsRoute
   '/info': typeof InfoRoute
   '/newsletter': typeof NewsletterRoute
   '/quiz': typeof QuizRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/info' | '/newsletter' | '/quiz'
+  fullPaths:
+    | '/'
+    | '/application-requirements'
+    | '/info'
+    | '/newsletter'
+    | '/quiz'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/info' | '/newsletter' | '/quiz'
-  id: '__root__' | '/' | '/info' | '/newsletter' | '/quiz'
+  to: '/' | '/application-requirements' | '/info' | '/newsletter' | '/quiz'
+  id:
+    | '__root__'
+    | '/'
+    | '/application-requirements'
+    | '/info'
+    | '/newsletter'
+    | '/quiz'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ApplicationRequirementsRoute: typeof ApplicationRequirementsRoute
   InfoRoute: typeof InfoRoute
   NewsletterRoute: typeof NewsletterRoute
   QuizRoute: typeof QuizRoute
@@ -92,6 +113,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof InfoRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/application-requirements': {
+      id: '/application-requirements'
+      path: '/application-requirements'
+      fullPath: '/application-requirements'
+      preLoaderRoute: typeof ApplicationRequirementsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -104,6 +132,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ApplicationRequirementsRoute: ApplicationRequirementsRoute,
   InfoRoute: InfoRoute,
   NewsletterRoute: NewsletterRoute,
   QuizRoute: QuizRoute,

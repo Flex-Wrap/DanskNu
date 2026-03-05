@@ -4,7 +4,6 @@ import InfoCard from '../components/InfoCard'
 import NavigationCard from '../components/NavigationCard'
 import Modal from '../components/Modal'
 import applicationImage from '../assets/application.webp'
-import infoImage from '../assets/info-dokk1.webp'
 
 export const Route = createFileRoute('/info')({
   component: InfoPage,
