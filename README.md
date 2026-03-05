@@ -1,73 +1,99 @@
-# React + TypeScript + Vite
+# DanskNu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An accessible and user-friendly app for preparing for the Danish citizenship exam, designed for sustainable learning and ethical design principles. This project was developed with AI assistance, building upon a previous iteration from the **Danico** repository.
 
-Currently, two official plugins are available:
+## About the App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+DanskNu helps users prepare for the Danish citizenship exam through interactive quizzes covering Danish history, culture, government, and society. The app features:
 
-## React Compiler
+- **Interactive Quizzes** - Engaging question-and-answer formats with immediate feedback
+- **Progress Tracking** - Monitor your learning progress with visual indicators
+- **Personalized Learning** - Revisit weak areas based on your quiz performance
+- **Newsletter Integration** - Stay updated with language tips and resources
+- **Accessible Design** - Built with inclusion and accessibility at its core
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Key Features
 
-## Expanding the ESLint configuration
+### Performance & Sustainability
+- **WebP Image Format** - All images are optimized as WebP for faster loading and reduced bandwidth, supporting sustainable digital practices
+- **Streamlined Bundle** - Minimalist design approach reduces unnecessary overhead
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### User Experience
+- **Dual Coding Approach** - Simple, clean interface combined with robust backend technology for an intuitive user experience
+- **Responsive Design** - Works seamlessly on desktop and mobile devices
+- **Accessible Components** - Designed with semantic HTML and accessibility best practices
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Technical Stack
+- **React 18** with **TypeScript** for type-safe, maintainable code
+- **Vite** for fast development and optimized production builds
+- **TanStack Router** for client-side routing
+- **Supabase** as the backend - managing citizenship exam questions, answers, user responses, and email subscriptions
+- **ESLint** for code quality standards
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Development
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Prerequisites
+- Node.js (v16+)
+- npm or yarn
+
+### Installation
+
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Environment Variables
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Create a `.env.local` file in the project root:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_PUBLISHABLE_DEFAULT_KEY=your_supabase_key
+```
+
+### Running Locally
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The app will be available at `http://localhost:5173/`
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Code Quality
+
+Run ESLint to check code standards:
+
+```bash
+npm run lint
+```
+
+## Project Structure
+
+```
+src/
+├── components/       # Reusable React components (Quiz, Forms, Cards, etc.)
+├── routes/          # Page routes (TanStack Router)
+├── context/         # React Context for global state
+├── utils/           # Utility functions, Supabase client setup
+└── App.tsx          # Main application component
+```
+
+## Accessibility & Sustainability
+
+This app demonstrates ethical design principles by prioritizing:
+- **Accessibility first** - WCAG compliance, keyboard navigation, semantic HTML
+- **Performance optimization** - WebP images, minimal JS, fast load times
+- **Inclusive design** - Simple, clear language with support for image-based learning
+- **Sustainable practices** - Optimized for lower bandwidth consumption
+
+## License
+
+MIT
