@@ -40,6 +40,13 @@ body {
 }
 
 /* Header Styles */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  width: 100%;
+}
+
 .app-header {
   display: flex;
   align-items: center;
@@ -68,6 +75,49 @@ main {
   padding: 1rem;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+}
+
+/* Footer */
+.app-footer {
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+  flex-shrink: 0;
+  margin-top: auto;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.footer-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 0 0.5rem 0;
+}
+
+.footer-link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+  font-size: 0.875rem;
+}
+
+.footer-link:active {
+  color: #0056b3;
 }
 
 /* Typography */
