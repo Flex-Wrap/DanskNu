@@ -1,3 +1,7 @@
+:root {
+  --primary-blue: #007bff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -53,9 +57,10 @@ body {
   gap: 1rem;
   padding: 0.75rem 1rem;
   background-color: #f8f9fa;
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 2px solid var(--primary-blue);
   min-height: 60px;
   flex-shrink: 0;
+  position: relative;
 }
 
 .page-title {
