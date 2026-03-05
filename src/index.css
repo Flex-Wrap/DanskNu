@@ -56,11 +56,21 @@ body {
   align-items: center;
   gap: 1rem;
   padding: 0.75rem 1rem;
-  background-color: #f8f9fa;
-  border-bottom: 2px solid var(--primary-blue);
+  background-color: #fff;
   min-height: 60px;
   flex-shrink: 0;
   position: relative;
+  width: 100%;
+}
+
+.app-header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: var(--primary-blue);
 }
 
 .page-title {
@@ -123,6 +133,12 @@ main {
 
 .footer-link:active {
   color: #0056b3;
+}
+
+.footer-link:focus-visible {
+  outline: 2px solid var(--primary-blue);
+  outline-offset: 2px;
+  border-radius: 0.25rem;
 }
 
 /* Typography */

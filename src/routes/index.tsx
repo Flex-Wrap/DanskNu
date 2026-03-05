@@ -10,7 +10,7 @@ export const Route = createFileRoute('/')({
 
 function HomePage() {
   return (
-    <div>
+    <section>
       <p>
         Welcome to DanskNu. We're here to help you through your integration journey and guide you towards becoming Danish.
       </p>
@@ -39,6 +39,6 @@ function HomePage() {
           />
         </div>
       </nav>
-    </div>
+    </section>
   )
 }
