@@ -1,7 +1,12 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { usePageTitle } from '../context/PageTitleContext'
-import { supabase } from '../utils/supabase'
+import { 
+  checkUserExists, 
+  fetchAllQuestions, 
+  fetchWeakAreaQuestions, 
+  saveQuizResults 
+} from '../utils/supabase'
 import Quiz, { type QuestionWithAnswers } from '../components/Quiz'
 import EmailForm from '../components/EmailForm'
 
@@ -21,81 +26,44 @@ function ImproveQuizzPage() {
     setEmail(submittedEmail)
 
     try {
-      // Check if email exists in user_responses
-      const { data: userResponses, error: checkError } = await supabase
-        .from('user_responses')
-        .select('email')
-        .eq('email', submittedEmail)
-        .limit(1)
-
-      if (checkError) throw checkError
-
-      const userExists = userResponses && userResponses.length > 0
+      const userExists = await checkUserExists(submittedEmail)
 
       if (!userExists) {
         // Email not found - load normal quiz questions
         setEmailFound(false)
-        const { data: questionsData, error: questionsError } = await supabase
-          .from('questions')
-          .select('*')
-          .order('created_at', { ascending: true })
+        const { questions: questionsData, answers: answersData } = await fetchAllQuestions()
 
-        if (questionsError) throw questionsError
-
-        const { data: answersData, error: answersError } = await supabase
-          .from('answers')
-          .select('*')
-          .order('question_id', { ascending: true })
-
-        if (answersError) throw answersError
-
-        const combined: QuestionWithAnswers[] = (questionsData || []).map((q: any) => ({
+        const combined: QuestionWithAnswers[] = questionsData.map((q: any) => ({
           question: q,
-          answers: (answersData || []).filter((a: any) => a.question_id === q.id),
+          answers: answersData.filter((a: any) => a.question_id === q.id),
         }))
 
         setQuestions(combined)
       } else {
-        // Email found - TODO: Load weak area questions
+        // Email found - Load weak area questions
         setEmailFound(true)
-        // TODO: Fetch questions based on weak areas
+        const { questions: questionsData, answers: answersData } = await fetchWeakAreaQuestions(submittedEmail)
+
+        const combined: QuestionWithAnswers[] = questionsData.map((q: any) => ({
+          question: q,
+          answers: answersData.filter((a: any) => a.question_id === q.id),
+        }))
+
+        setQuestions(combined)
       }
     } catch (error) {
-      console.error('Error checking email:', error)
+      console.error('Error during email submission:', error)
     } finally {
       setLoading(false)
     }
   }
 
-  const handleQuizComplete = async (selectedAnswers: Record<string, string>, score: number) => {
+  const handleQuizComplete = async (selectedAnswers: Record<string, string>) => {
     if (!email || questions.length === 0) return
 
     try {
-      // Calculate correct and incorrect counts
-      let correctCount = 0
-      let incorrectCount = 0
-
-      questions.forEach((q) => {
-        const selectedAnswerId = selectedAnswers[q.question.id]
-        const selectedAnswer = q.answers.find((a) => a.id === selectedAnswerId)
-        if (selectedAnswer?.is_correct) {
-          correctCount++
-        } else {
-          incorrectCount++
-        }
-      })
-
-      // Save to database - insert or update user response
-      const { error } = await supabase.from('user_responses').insert([
-        {
-          email,
-          correct_count: correctCount,
-          incorrect_count: incorrectCount,
-          created_at: new Date().toISOString(),
-        },
-      ])
-
-      if (error) throw error
+      await saveQuizResults(email, questions, selectedAnswers, 
+        questions.flatMap((q) => q.answers))
       console.log('Quiz results saved successfully')
     } catch (error) {
       console.error('Error saving quiz results:', error)
@@ -134,10 +102,24 @@ function ImproveQuizzPage() {
   }
 
   if (emailFound === true) {
+    if (questions.length === 0) {
+      return (
+        <section style={{ textAlign: 'center' }}>
+          <h2 style={{ marginBottom: '1rem' }}>No Weak Areas Found!</h2>
+          <p style={{ color: '#666' }}>
+            You've answered all your previous questions correctly. Great job! 🎉
+          </p>
+        </section>
+      )
+    }
+
     return (
-      <section>
-        <p>TODO: Show personalized weak areas quiz for {email}</p>
-      </section>
+      <>
+        <p style={{ marginBottom: '1rem', color: '#666' }}>
+          Here are the topics you struggled with before. Let's practice them!
+        </p>
+        <Quiz questions={questions} onComplete={handleQuizComplete} />
+      </>
     )
   }
 
