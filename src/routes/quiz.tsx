@@ -42,7 +42,7 @@ function QuizPage() {
             Email Required
           </span>
           <NavigationCard
-            to="/quiz"
+            to="/improve-quizz"
             title="Improve Your Weak Areas"
             description="Take a personalized quiz based on your previous results"
             image={improveImage}

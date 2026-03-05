@@ -7,9 +7,11 @@ interface QuizResultProps {
 }
 
 export default function QuizResult({ score, total, onTryAgain }: QuizResultProps) {
+  const percentage = Math.round((score / total) * 100)
+
   const getResultType = () => {
-    if (score >= 31) return 'success'
-    if (score >= 25) return 'warning'
+    if (percentage >= 75) return 'success'
+    if (percentage >= 50) return 'warning'
     return 'failure'
   }
 
@@ -24,7 +26,6 @@ export default function QuizResult({ score, total, onTryAgain }: QuizResultProps
   }
 
   const resultType = getResultType()
-  const percentage = Math.round((score / total) * 100)
   const encouragementMessage = getEncouragementMessage()
 
   return (

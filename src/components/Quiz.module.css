@@ -1,0 +1,94 @@
+.navigationButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.previousButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.8rem 0.5rem 0.5rem;
+  border: 2px solid var(--primary-blue);
+  border-radius: 0.5rem;
+  background-color: transparent;
+  color: var(--primary-blue);
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+  min-height: 44px;
+}
+
+.previousButton:hover:not(:disabled) {
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+.previousButton:active:not(:disabled) {
+  background-color: var(--primary-blue);
+  color: #fff;
+}
+
+.previousButton:focus-visible {
+  outline: 2px solid var(--primary-blue);
+  outline-offset: 2px;
+}
+
+.previousButton:disabled {
+  border-color: #ccc;
+  color: #ccc;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.nextButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.8rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--primary-blue);
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+  min-height: 44px;
+}
+
+.nextButton:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.nextButton:active:not(:disabled) {
+  background-color: #003d82;
+}
+
+.nextButton:focus-visible {
+  outline: 2px solid var(--primary-blue);
+  outline-offset: 2px;
+}
+
+.nextButton:disabled {
+  background-color: #ccc;
+  color: #999;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5em;
+}
+
+.text {
+  font-size: 0.875rem;
+  line-height: 1.5em;
+}
