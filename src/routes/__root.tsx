@@ -1,33 +1,19 @@
-import { Outlet, createRootRoute, useLocation } from '@tanstack/react-router'
+import { Outlet, createRootRoute } from '@tanstack/react-router'
 import BackButton from '../components/BackButton'
+import { PageTitleProvider, usePageTitleValue } from '../context/PageTitleContext'
 
 export const Route = createRootRoute({
   component: RootLayout,
 })
 
-function RootLayout() {
-  const location = useLocation()
-
-  const getPageTitle = (pathname: string) => {
-    switch (pathname) {
-      case '/':
-        return 'Home'
-      case '/quiz':
-        return 'Quiz'
-      case '/info':
-        return 'Info'
-      case '/newsletter':
-        return 'Newsletter'
-      default:
-        return 'DanskNu'
-    }
-  }
+function RootLayoutContent() {
+  const pageTitle = usePageTitleValue()
 
   return (
     <div className="app-container">
       <header className="app-header">
         <BackButton />
-        <h1 className="page-title">{getPageTitle(location.pathname)}</h1>
+        <h1 className="page-title">{pageTitle}</h1>
       </header>
       <main>
         <Outlet />
@@ -45,5 +31,13 @@ function RootLayout() {
         </div>
       </footer>
     </div>
+  )
+}
+
+function RootLayout() {
+  return (
+    <PageTitleProvider>
+      <RootLayoutContent />
+    </PageTitleProvider>
   )
 }

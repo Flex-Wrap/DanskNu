@@ -1,4 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { usePageTitle } from '../context/PageTitleContext'
 import NavigationCard from '../components/NavigationCard'
 import quizzImage from '../assets/quizz.webp'
 import improveImage from '../assets/improve.webp'
@@ -8,6 +9,7 @@ export const Route = createFileRoute('/quiz')({
 })
 
 function QuizPage() {
+  usePageTitle('Quiz')
   return (
     <section>
       <p>
@@ -16,7 +18,7 @@ function QuizPage() {
       
       <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1rem', marginTop: '2rem' }}>
         <NavigationCard
-          to="/quiz"
+          to="/normal-quizz"
           title="Take a Normal Quiz"
           description="Test your knowledge with a random selection of citizenship exam questions"
           image={quizzImage}

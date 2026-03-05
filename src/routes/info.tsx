@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useState } from 'react'
+import { usePageTitle } from '../context/PageTitleContext'
 import InfoCard from '../components/InfoCard'
 import NavigationCard from '../components/NavigationCard'
 import Modal from '../components/Modal'
@@ -10,6 +11,7 @@ export const Route = createFileRoute('/info')({
 })
 
 function InfoPage() {
+  usePageTitle('Info')
   const [openModal, setOpenModal] = useState<string | null>(null)
 
   return (

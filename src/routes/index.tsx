@@ -1,4 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { usePageTitle } from '../context/PageTitleContext'
 import NavigationCard from '../components/NavigationCard'
 import quizImage from '../assets/quizz.webp'
 import infoImage from '../assets/info-dokk1.webp'
@@ -9,6 +10,7 @@ export const Route = createFileRoute('/')({
 })
 
 function HomePage() {
+  usePageTitle('Home')
   return (
     <section>
       <p>
