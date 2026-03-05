@@ -7,7 +7,7 @@ export const Route = createFileRoute('/application-requirements')({
 })
 
 function ApplicationRequirementsPage() {
-  usePageTitle('Application Requirements')
+  usePageTitle('Requirements')
   return (
     <section>
       <AccordionItem title="General Information on Acquisition of Danish Citizenship">
