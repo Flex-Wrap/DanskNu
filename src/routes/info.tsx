@@ -15,7 +15,7 @@ function InfoPage() {
   const { t } = useTranslation()
   usePageTitle(t('pages.titles.info'))
   const [openModal, setOpenModal] = useState<string | null>(null)
-  const modalContent = t('modals', { returnObjects: true })
+  const modalContent = t('modals', { returnObjects: true }) as any
 
   return (
     <section>

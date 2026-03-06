@@ -10,7 +10,7 @@ export const Route = createFileRoute('/application-requirements')({
 function ApplicationRequirementsPage() {
   const { t } = useTranslation()
   usePageTitle(t('pages.titles.requirements'))
-  const content = t('applicationRequirementsContent', { returnObjects: true })
+  const content = t('applicationRequirementsContent', { returnObjects: true }) as any
 
   return (
     <section>
