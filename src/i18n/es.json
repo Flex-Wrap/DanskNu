@@ -4,7 +4,8 @@
     "tryAgain": "Intentar de nuevo",
     "submit": "Enviar",
     "loadingQuestions": "Cargando preguntas...",
-    "loadingQuiz": "Cargando quiz..."
+    "loadingQuiz": "Cargando quiz...",
+    "deadline": "Fecha límite"
   },
   "pages": {
     "home": {
@@ -122,5 +123,21 @@
     "declarationOfAllegiance": "Debes firmar una declaración de lealtad",
     "permanentResidencePermit": "Debes tener un permiso de residencia permanente",
     "beingResident": "Ser residente en Dinamarca"
+  },
+  "footer": {
+    "contact": "Contacto",
+    "support": "Soporte"
+  },
+  "quiz": {
+    "questionLabel": "Pregunta",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "finish": "Finalizar",
+    "noQuestionsAvailable": "No hay preguntas disponibles."
+  },
+  "improveQuiz": {
+    "heading": "Mejora tus áreas débiles",
+    "description": "Ingresa tu correo electrónico para ver preguntas de temas con los que tuviste dificultades.",
+    "noResultsMessage": "No se encontraron resultados anteriores para este correo electrónico. Realizando un cuestionario normal para establecer una línea de base."
   }
 }

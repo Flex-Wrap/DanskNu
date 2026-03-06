@@ -4,7 +4,8 @@
     "tryAgain": "Prøv igen",
     "submit": "Send",
     "loadingQuestions": "Indlæser spørgsmål...",
-    "loadingQuiz": "Indlæser quiz..."
+    "loadingQuiz": "Indlæser quiz...",
+    "deadline": "Deadline"
   },
   "pages": {
     "home": {
@@ -122,5 +123,21 @@
     "declarationOfAllegiance": "Du skal underskrive en erklæring om loyalitet",
     "permanentResidencePermit": "Du skal have opholdstilladelse",
     "beingResident": "At være bosiddende i Danmark"
+  },
+  "footer": {
+    "contact": "Kontakt",
+    "support": "Support"
+  },
+  "quiz": {
+    "questionLabel": "Spørgsmål",
+    "previous": "Forrige",
+    "next": "Næste",
+    "finish": "Afslut",
+    "noQuestionsAvailable": "Ingen spørgsmål tilgængelige."
+  },
+  "improveQuiz": {
+    "heading": "Forbedre dine svage områder",
+    "description": "Angiv din e-mail for at se spørgsmål fra emner, du kæmpede med.",
+    "noResultsMessage": "Ingen tidligere resultater fundet for denne e-mail. Laver en normal quiz for at etablere en baseline."
   }
 }

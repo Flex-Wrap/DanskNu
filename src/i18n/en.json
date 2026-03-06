@@ -4,7 +4,8 @@
     "tryAgain": "Try Again",
     "submit": "Submit",
     "loadingQuestions": "Loading questions...",
-    "loadingQuiz": "Loading quiz..."
+    "loadingQuiz": "Loading quiz...",
+    "deadline": "Deadline"
   },
   "pages": {
     "home": {
@@ -122,5 +123,21 @@
     "declarationOfAllegiance": "You Must Sign a Declaration of Allegiance and Loyalty",
     "permanentResidencePermit": "You Must Have a Permanent Residence Permit",
     "beingResident": "Being a Resident in Denmark"
+  },
+  "footer": {
+    "contact": "Contact",
+    "support": "Support"
+  },
+  "quiz": {
+    "questionLabel": "Question",
+    "previous": "Previous",
+    "next": "Next",
+    "finish": "Finish",
+    "noQuestionsAvailable": "No questions available."
+  },
+  "improveQuiz": {
+    "heading": "Improve Your Weak Areas",
+    "description": "Enter your email to see questions from topics you struggled with.",
+    "noResultsMessage": "No previous results found for this email. Taking a normal quiz to establish a baseline."
   }
 }

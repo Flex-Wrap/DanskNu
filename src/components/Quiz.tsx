@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import ProgressBar from './ProgressBar'
 import QuizQuestion from './QuizQuestion'
 import QuizResult from './QuizResult'
@@ -28,6 +29,7 @@ interface QuizProps {
 }
 
 export default function Quiz({ questions, onComplete }: QuizProps) {
+  const { t } = useTranslation()
   const [currentIndex, setCurrentIndex] = useState(0)
   const [selectedAnswers, setSelectedAnswers] = useState<Record<string, string>>({})
   const [showResults, setShowResults] = useState(false)
@@ -80,7 +82,7 @@ export default function Quiz({ questions, onComplete }: QuizProps) {
   if (questions.length === 0) {
     return (
       <section>
-        <p>No questions available.</p>
+        <p>{t('quiz.noQuestionsAvailable')}</p>
       </section>
     )
   }
@@ -121,7 +123,7 @@ export default function Quiz({ questions, onComplete }: QuizProps) {
           aria-label="Previous question"
         >
           <ChevronLeft size={20} className={styles.icon} />
-          <span className={styles.text}>Previous</span>
+          <span className={styles.text}>{t('quiz.previous')}</span>
         </button>
 
         <button
@@ -130,7 +132,7 @@ export default function Quiz({ questions, onComplete }: QuizProps) {
           className={styles.nextButton}
           aria-label={currentIndex === questions.length - 1 ? 'Finish quiz' : 'Next question'}
         >
-          <span className={styles.text}>{currentIndex === questions.length - 1 ? 'Finish' : 'Next'}</span>
+          <span className={styles.text}>{currentIndex === questions.length - 1 ? t('quiz.finish') : t('quiz.next')}</span>
           <ChevronRight size={20} className={styles.icon} />
         </button>
       </div>

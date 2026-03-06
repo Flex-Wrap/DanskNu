@@ -4,7 +4,8 @@
     "tryAgain": "Spróbuj ponownie",
     "submit": "Wyślij",
     "loadingQuestions": "Ładowanie pytań...",
-    "loadingQuiz": "Ładowanie quizu..."
+    "loadingQuiz": "Ładowanie quizu...",
+    "deadline": "Termin"
   },
   "pages": {
     "home": {
@@ -122,5 +123,21 @@
     "declarationOfAllegiance": "Musisz podpisać oświadczenie o lojalności",
     "permanentResidencePermit": "Musisz posiadać pozwolenie na pobyt stały",
     "beingResident": "Bycie rezydentem Danii"
+  },
+  "footer": {
+    "contact": "Kontakt",
+    "support": "Wsparcie"
+  },
+  "quiz": {
+    "questionLabel": "Pytanie",
+    "previous": "Poprzednia",
+    "next": "Następna",
+    "finish": "Zakończyć",
+    "noQuestionsAvailable": "Brak dostępnych pytań."
+  },
+  "improveQuiz": {
+    "heading": "Poprawiaj swoje słabe strony",
+    "description": "Wpisz swój e-mail, aby zobaczyć pytania z tematów, w których miałeś trudności.",
+    "noResultsMessage": "Nie znaleziono poprzednich wyników dla tego adresu e-mail. Wykonywanie normalnego quizu w celu ustalenia linii bazowej."
   }
 }

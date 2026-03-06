@@ -1,4 +1,5 @@
 import { X } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import styles from './Modal.module.css'
 
 interface ModalProps {
@@ -10,6 +11,7 @@ interface ModalProps {
 }
 
 export default function Modal({ isOpen, onClose, title, daysUntil, children }: ModalProps) {
+  const { t } = useTranslation()
   if (!isOpen) return null
 
   const handleBackdropClick = (e: React.MouseEvent) => {
@@ -34,7 +36,7 @@ export default function Modal({ isOpen, onClose, title, daysUntil, children }: M
               {title}
             </h2>
             {daysUntil && (
-              <p className={styles.date}>Deadline: {getDeadlineDate()}</p>
+              <p className={styles.date}>{t('common.deadline')}: {getDeadlineDate()}</p>
             )}
           </div>
           <button

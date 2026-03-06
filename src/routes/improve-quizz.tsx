@@ -75,9 +75,9 @@ function ImproveQuizzPage() {
   if (!email) {
     return (
       <section style={{ maxWidth: '500px', margin: '0 auto' }}>
-        <h2 style={{ marginBottom: '1rem' }}>Improve Your Weak Areas</h2>
+        <h2 style={{ marginBottom: '1rem' }}>{t('improveQuiz.heading')}</h2>
         <p style={{ marginBottom: '2rem', color: '#666' }}>
-          Enter your email to see questions from topics you struggled with.
+          {t('improveQuiz.description')}
         </p>
         <EmailForm onSubmit={handleEmailSubmit} />
       </section>
@@ -96,7 +96,7 @@ function ImproveQuizzPage() {
     return (
       <>
         <p style={{ marginBottom: '1rem', color: '#666' }}>
-          No previous results found for this email. Taking a normal quiz to establish a baseline.
+          {t('improveQuiz.noResultsMessage')}
         </p>
         <Quiz questions={questions} onComplete={handleQuizComplete} />
       </>

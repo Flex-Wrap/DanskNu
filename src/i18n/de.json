@@ -4,7 +4,8 @@
     "tryAgain": "Nochmal versuchen",
     "submit": "Absenden",
     "loadingQuestions": "Fragen werden geladen...",
-    "loadingQuiz": "Quiz wird geladen..."
+    "loadingQuiz": "Quiz wird geladen...",
+    "deadline": "Frist"
   },
   "pages": {
     "home": {
@@ -122,5 +123,21 @@
     "declarationOfAllegiance": "Du musst eine Loyalitätserklärung unterzeichnen",
     "permanentResidencePermit": "Du brauchst eine Aufenthaltserlaubnis",
     "beingResident": "Wohnhaft in Dänemark sein"
+  },
+  "footer": {
+    "contact": "Kontakt",
+    "support": "Unterstützung"
+  },
+  "quiz": {
+    "questionLabel": "Frage",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "finish": "Fertig",
+    "noQuestionsAvailable": "Keine Fragen verfügbar."
+  },
+  "improveQuiz": {
+    "heading": "Verbessern Sie Ihre schwachen Bereiche",
+    "description": "Geben Sie Ihre E-Mail ein, um Fragen zu Themen zu sehen, mit denen Sie Schwierigkeiten hatten.",
+    "noResultsMessage": "Keine bisherigen Ergebnisse für diese E-Mail gefunden. Es wird ein normales Quiz durchgeführt, um eine Basislinie zu erstellen."
   }
 }
