@@ -12,7 +12,7 @@ export const Route = createFileRoute('/')({
 
 function HomePage() {
   const { t } = useTranslation()
-  usePageTitle('Home')
+  usePageTitle(t('pages.titles.home'))
   return (
     <section>
       <p>

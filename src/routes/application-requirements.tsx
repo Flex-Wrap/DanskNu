@@ -1,4 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { useTranslation } from 'react-i18next'
 import { usePageTitle } from '../context/PageTitleContext'
 import { AccordionItem } from '../components/Accordion'
 
@@ -7,7 +8,8 @@ export const Route = createFileRoute('/application-requirements')({
 })
 
 function ApplicationRequirementsPage() {
-  usePageTitle('Requirements')
+  const { t } = useTranslation()
+  usePageTitle(t('pages.titles.requirements'))
   return (
     <section>
       <AccordionItem title="General Information on Acquisition of Danish Citizenship">

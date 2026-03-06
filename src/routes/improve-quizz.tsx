@@ -17,7 +17,7 @@ export const Route = createFileRoute('/improve-quizz')({
 
 function ImproveQuizzPage() {
   const { t } = useTranslation()
-  usePageTitle('Improve Quiz')
+  usePageTitle(t('pages.titles.improve'))
   const [email, setEmail] = useState<string | null>(null)
   const [questions, setQuestions] = useState<QuestionWithAnswers[]>([])
   const [loading, setLoading] = useState(false)
@@ -75,9 +75,9 @@ function ImproveQuizzPage() {
   if (!email) {
     return (
       <section style={{ maxWidth: '500px', margin: '0 auto' }}>
-        <h2 style={{ marginBottom: '1rem' }}>{t('improveQuiz.heading')}</h2>
+        <h2 style={{ marginBottom: '1rem' }}>{t('improve.heading')}</h2>
         <p style={{ marginBottom: '2rem', color: '#666' }}>
-          {t('improveQuiz.description')}
+          {t('improve.description')}
         </p>
         <EmailForm onSubmit={handleEmailSubmit} />
       </section>
@@ -96,7 +96,7 @@ function ImproveQuizzPage() {
     return (
       <>
         <p style={{ marginBottom: '1rem', color: '#666' }}>
-          {t('improveQuiz.noResultsMessage')}
+          {t('improve.noResultsMessage')}
         </p>
         <Quiz questions={questions} onComplete={handleQuizComplete} />
       </>

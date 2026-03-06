@@ -13,7 +13,7 @@ export const Route = createFileRoute('/info')({
 
 function InfoPage() {
   const { t } = useTranslation()
-  usePageTitle('Info')
+  usePageTitle(t('pages.titles.info'))
   const [openModal, setOpenModal] = useState<string | null>(null)
 
   return (

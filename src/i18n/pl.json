@@ -8,6 +8,15 @@
     "deadline": "Termin"
   },
   "pages": {
+    "titles": {
+      "home": "Strona główna",
+      "quiz": "Quiz",
+      "info": "Informacje",
+      "normalQuiz": "Normalny Quiz",
+      "improve": "Popraw się",
+      "newsletter": "Biuletyn",
+      "requirements": "Wymagania"
+    },
     "home": {
       "title": "Strona główna",
       "welcome": "Witaj w DanskNu. Jesteśmy tutaj, aby pomóc ci w twojej podróży integracyjnej i poprowadzić cię do zostania obywatelem duńskim."
@@ -52,7 +61,7 @@
       "description": "Przetestuj swoją wiedzę dzięki losowemu wyborowi pytań z egzaminu obywatelskiego",
       "imageAlt": "Weź udział w zwykłym quizie"
     },
-    "improveWeakAreas": {
+    "improve": {
       "title": "Popraw swoje słabe punkty",
       "description": "Weź udział w spersonalizowanym quizie na podstawie twoich poprzednich wyników",
       "imageAlt": "Popraw swoje słabe punkty",
@@ -139,7 +148,7 @@
     "finish": "Zakończyć",
     "noQuestionsAvailable": "Brak dostępnych pytań."
   },
-  "improveQuiz": {
+  "improve": {
     "heading": "Poprawiaj swoje słabe strony",
     "description": "Wpisz swój e-mail, aby zobaczyć pytania z tematów, w których miałeś trudności.",
     "noResultsMessage": "Nie znaleziono poprzednich wyników dla tego adresu e-mail. Wykonywanie normalnego quizu w celu ustalenia linii bazowej."

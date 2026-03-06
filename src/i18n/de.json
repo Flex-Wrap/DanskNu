@@ -8,6 +8,15 @@
     "deadline": "Frist"
   },
   "pages": {
+    "titles": {
+      "home": "Startseite",
+      "quiz": "Quiz",
+      "info": "Info",
+      "normalQuiz": "Normales Quiz",
+      "improve": "Verbessern Dich",
+      "newsletter": "Newsletter",
+      "requirements": "Anforderungen"
+    },
     "home": {
       "title": "Startseite",
       "welcome": "Willkommen bei DanskNu. Wir sind hier, um dich auf deinem Integrationswege zu unterstützen und dich auf dem Weg zum dänischen Bürger zu führen."
@@ -52,7 +61,7 @@
       "description": "Teste dein Wissen mit einer zufälligen Auswahl van Staatsbürgerschaftsprüfungsfragen",
       "imageAlt": "Nimm an einem normalen Quiz teil"
     },
-    "improveWeakAreas": {
+    "improve": {
       "title": "Verbessere deine schwachen Bereiche",
       "description": "Nimm an einem personalisierten Quiz basierend auf deinen bisherigen Ergebnissen teil",
       "imageAlt": "Verbessere deine schwachen Bereiche",
@@ -139,7 +148,7 @@
     "finish": "Fertig",
     "noQuestionsAvailable": "Keine Fragen verfügbar."
   },
-  "improveQuiz": {
+  "improve": {
     "heading": "Verbessern Sie Ihre schwachen Bereiche",
     "description": "Geben Sie Ihre E-Mail ein, um Fragen zu Themen zu sehen, mit denen Sie Schwierigkeiten hatten.",
     "noResultsMessage": "Keine bisherigen Ergebnisse für diese E-Mail gefunden. Es wird ein normales Quiz durchgeführt, um eine Basislinie zu erstellen."

@@ -1,4 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { useTranslation } from 'react-i18next'
 import { usePageTitle } from '../context/PageTitleContext'
 
 export const Route = createFileRoute('/newsletter')({
@@ -6,7 +7,8 @@ export const Route = createFileRoute('/newsletter')({
 })
 
 function NewsletterPage() {
-  usePageTitle('Newsletter')
+  const { t } = useTranslation()
+  usePageTitle(t('pages.titles.newsletter'))
 
   return (
     <section style={{ maxWidth: '600px', margin: '0 auto', textAlign: 'center' }}>

@@ -8,6 +8,15 @@
     "deadline": "Fecha límite"
   },
   "pages": {
+    "titles": {
+      "home": "Inicio",
+      "quiz": "Quiz",
+      "info": "Información",
+      "normalQuiz": "Quiz Normal",
+      "improve": "Mejórate",
+      "newsletter": "Boletín",
+      "requirements": "Requisitos"
+    },
     "home": {
       "title": "Inicio",
       "welcome": "Bienvenido a DanskNu. Estamos aquí para ayudarte en tu viaje de integración y guiarte hacia convertirte en ciudadano danés."
@@ -52,7 +61,7 @@
       "description": "Prueba tus conocimientos con una selección aleatoria de preguntas del examen de ciudadanía",
       "imageAlt": "Realizar un quiz normal"
     },
-    "improveWeakAreas": {
+    "improve": {
       "title": "Mejorar tus áreas débiles",
       "description": "Realiza un quiz personalizado según tus resultados anteriores",
       "imageAlt": "Mejorar tus áreas débiles",
@@ -139,7 +148,7 @@
     "finish": "Finalizar",
     "noQuestionsAvailable": "No hay preguntas disponibles."
   },
-  "improveQuiz": {
+  "improve": {
     "heading": "Mejora tus áreas débiles",
     "description": "Ingresa tu correo electrónico para ver preguntas de temas con los que tuviste dificultades.",
     "noResultsMessage": "No se encontraron resultados anteriores para este correo electrónico. Realizando un cuestionario normal para establecer una línea de base."

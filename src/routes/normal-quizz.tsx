@@ -11,7 +11,7 @@ export const Route = createFileRoute('/normal-quizz')({
 
 function NormalQuizzPage() {
   const { t } = useTranslation()
-  usePageTitle('Normal Quiz')
+  usePageTitle(t('pages.titles.normalQuiz'))
   const [questions, setQuestions] = useState<QuestionWithAnswers[]>([])
   const [loading, setLoading] = useState(true)
 

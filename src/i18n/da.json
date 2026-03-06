@@ -8,6 +8,15 @@
     "deadline": "Deadline"
   },
   "pages": {
+    "titles": {
+      "home": "Hjem",
+      "quiz": "Quiz",
+      "info": "Info",
+      "normalQuiz": "Almindelig Quiz",
+      "improve": "Forbedre Dig",
+      "newsletter": "Nyhedsbrev",
+      "requirements": "Krav"
+    },
     "home": {
       "title": "Hjem",
       "welcome": "Velkommen til DanskNu. Vi er her for at hjælpe dig gennem din integrationsvej og guide dig mod at blive dansk."
@@ -52,7 +61,7 @@
       "description": "Test din viden med et tilfældigt udvalg af statsborgerskabsprøvespørgsmål",
       "imageAlt": "Tag en almindelig quiz"
     },
-    "improveWeakAreas": {
+    "improve": {
       "title": "Forbedre dine svage områder",
       "description": "Tag en personaliseret quiz baseret på dine tidligere resultater",
       "imageAlt": "Forbedre dine svage områder",
@@ -139,7 +148,7 @@
     "finish": "Afslut",
     "noQuestionsAvailable": "Ingen spørgsmål tilgængelige."
   },
-  "improveQuiz": {
+  "improve": {
     "heading": "Forbedre dine svage områder",
     "description": "Angiv din e-mail for at se spørgsmål fra emner, du kæmpede med.",
     "noResultsMessage": "Ingen tidligere resultater fundet for denne e-mail. Laver en normal quiz for at etablere en baseline."

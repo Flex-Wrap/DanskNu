@@ -11,7 +11,7 @@ export const Route = createFileRoute('/quiz')({
 
 function QuizPage() {
   const { t } = useTranslation()
-  usePageTitle('Quiz')
+  usePageTitle(t('pages.titles.quiz'))
   return (
     <section>
       <p>
@@ -42,14 +42,14 @@ function QuizPage() {
               textTransform: 'uppercase',
               zIndex: 10
             }}>
-              {t('navigation.improveWeakAreas.badge')}
+              {t('navigation.improve.badge')}
             </span>
             <NavigationCard
               to="/improve-quizz"
-              title={t('navigation.improveWeakAreas.title')}
-              description={t('navigation.improveWeakAreas.description')}
+              title={t('navigation.improve.title')}
+              description={t('navigation.improve.description')}
               image={improveImage}
-              imageAlt={t('navigation.improveWeakAreas.imageAlt')}
+              imageAlt={t('navigation.improve.imageAlt')}
             />
           </div>
         </div>
