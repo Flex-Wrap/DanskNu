@@ -7,7 +7,7 @@ export const supabase = createClient(supabaseUrl, supabaseKey)
 
 // Debug mode - set to true to limit questions to 10 for testing
 const DEBUG = true
-const DEBUG_LIMIT = 10
+const DEBUG_LIMIT = 5
 
 // Quiz fetching helpers
 export async function fetchAllQuestions() {
