@@ -60,6 +60,10 @@
     }
   },
   "infoCards": {
+    "applicationRequirements": {
+      "title": "Wymagania Aplikacji",
+      "description": "Pełna lista wymagań do obywatelstwa duńskiego"
+    },
     "danishNationalityExam": {
       "title": "Duński egzamin obywatelski",
       "description": "Oficjalny egzamin dla kandydatów do obywatelstwa duńskiego"

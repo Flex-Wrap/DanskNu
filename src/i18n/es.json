@@ -60,6 +60,10 @@
     }
   },
   "infoCards": {
+    "applicationRequirements": {
+      "title": "Requisitos de Solicitud",
+      "description": "Lista completa de requisitos para la ciudadanía danesa"
+    },
     "danishNationalityExam": {
       "title": "Examen de nacionalidad danesa",
       "description": "Examen oficial para solicitantes de ciudadanía danesa"

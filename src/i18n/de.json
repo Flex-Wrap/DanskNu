@@ -60,6 +60,10 @@
     }
   },
   "infoCards": {
+    "applicationRequirements": {
+      "title": "Antragserfordernisse",
+      "description": "Vollständige Liste der Anforderungen für die dänische Staatsbürgerschaft"
+    },
     "danishNationalityExam": {
       "title": "Dänische Staatsbürgerschaftsprüfung",
       "description": "Offizielle Prüfung für Antragsteller der dänischen Staatsbürgerschaft"

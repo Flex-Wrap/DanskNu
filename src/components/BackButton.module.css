@@ -4,10 +4,10 @@
   justify-content: center;
   gap: 0.5rem;
   padding: 0.5rem 0.8rem 0.5rem 0.5rem;
-  border: 2px solid var(--primary-blue);
+  border: none;
   border-radius: 0.5rem;
   background-color: transparent;
-  color: var(--primary-blue);
+  color: #000;
   font-size: 0.875rem;
   font-weight: 600;
   cursor: pointer;
@@ -21,12 +21,12 @@
 }
 
 .backButton:active {
-  background-color: var(--primary-blue);
-  color: #fff;
+  background-color: #f0f0f0;
+  color: #000;
 }
 
 .backButton:focus-visible {
-  outline: 2px solid var(--primary-blue);
+  outline: 2px solid #000;
   outline-offset: 2px;
 }
 

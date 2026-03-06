@@ -60,6 +60,10 @@
     }
   },
   "infoCards": {
+    "applicationRequirements": {
+      "title": "Ansøgningskrav",
+      "description": "Komplet liste over krav til dansk statsborgerskab"
+    },
     "danishNationalityExam": {
       "title": "Dansk statsborgerskabsprøve",
       "description": "Officiel eksamen for ansøgere til dansk statsborgerskab"

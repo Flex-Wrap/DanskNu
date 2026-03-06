@@ -18,40 +18,42 @@ function QuizPage() {
         {t('pages.quiz.welcome')}
       </p>
       
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1rem', marginTop: '2rem' }}>
-        <NavigationCard
-          to="/normal-quizz"
-          title={t('navigation.normalQuiz.title')}
-          description={t('navigation.normalQuiz.description')}
-          image={quizzImage}
-          imageAlt={t('navigation.normalQuiz.imageAlt')}
-        />
-        
-        <div style={{ position: 'relative' }}>
-          <span style={{ 
-            position: 'absolute',
-            top: '0.75rem',
-            right: '0.75rem',
-            backgroundColor: 'var(--primary-blue)',
-            color: '#fff',
-            padding: '0.25rem 0.75rem',
-            borderRadius: '0.25rem',
-            fontSize: '0.75rem',
-            fontWeight: 600,
-            textTransform: 'uppercase',
-            zIndex: 10
-          }}>
-            {t('navigation.improveWeakAreas.badge')}
-          </span>
+      <nav aria-label="Quiz options navigation">
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1rem', marginTop: '2rem' }}>
           <NavigationCard
-            to="/improve-quizz"
-            title={t('navigation.improveWeakAreas.title')}
-            description={t('navigation.improveWeakAreas.description')}
-            image={improveImage}
-            imageAlt={t('navigation.improveWeakAreas.imageAlt')}
+            to="/normal-quizz"
+            title={t('navigation.normalQuiz.title')}
+            description={t('navigation.normalQuiz.description')}
+            image={quizzImage}
+            imageAlt={t('navigation.normalQuiz.imageAlt')}
           />
+          
+          <div style={{ position: 'relative' }}>
+            <span style={{ 
+              position: 'absolute',
+              top: '0.75rem',
+              right: '0.75rem',
+              backgroundColor: 'var(--primary-blue)',
+              color: '#fff',
+              padding: '0.25rem 0.75rem',
+              borderRadius: '0.25rem',
+              fontSize: '0.75rem',
+              fontWeight: 600,
+              textTransform: 'uppercase',
+              zIndex: 10
+            }}>
+              {t('navigation.improveWeakAreas.badge')}
+            </span>
+            <NavigationCard
+              to="/improve-quizz"
+              title={t('navigation.improveWeakAreas.title')}
+              description={t('navigation.improveWeakAreas.description')}
+              image={improveImage}
+              imageAlt={t('navigation.improveWeakAreas.imageAlt')}
+            />
+          </div>
         </div>
-      </div>
+      </nav>
     </section>
   )
 }

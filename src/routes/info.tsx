@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { usePageTitle } from '../context/PageTitleContext'
 import InfoCard from '../components/InfoCard'
 import NavigationCard from '../components/NavigationCard'
@@ -11,35 +12,40 @@ export const Route = createFileRoute('/info')({
 })
 
 function InfoPage() {
+  const { t } = useTranslation()
   usePageTitle('Info')
   const [openModal, setOpenModal] = useState<string | null>(null)
 
   return (
     <section>
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1rem' }}>
-        <NavigationCard
-          to="/application-requirements"
-          title="Application Requirements"
-          description="Complete list of requirements for Danish citizenship"
-          image={applicationImage}
-          imageAlt="Application Requirements"
-        />
+      <nav aria-label="Info sections navigation">
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1rem' }}>
+          <NavigationCard
+            to="/application-requirements"
+            title={t('infoCards.applicationRequirements.title')}
+            description={t('infoCards.applicationRequirements.description')}
+            image={applicationImage}
+            imageAlt={t('infoCards.applicationRequirements.title')}
+          />
+        </div>
+      </nav>
 
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1rem', marginTop: '1rem' }}>
         <InfoCard
-          title="Danish Nationality Exam"
-          description="Official examination for Danish citizenship applicants"
+          title={t('infoCards.danishNationalityExam.title')}
+          description={t('infoCards.danishNationalityExam.description')}
           daysUntil={45}
           onClick={() => setOpenModal('nationality')}
         />
         <InfoCard
-          title="Danish Language Exam"
-          description="Proof of Danish language proficiency required for integration"
+          title={t('infoCards.danishLanguageExam.title')}
+          description={t('infoCards.danishLanguageExam.description')}
           daysUntil={30}
           onClick={() => setOpenModal('language')}
         />
         <InfoCard
-          title="Naturalization Application"
-          description="Submission deadline for citizenship request"
+          title={t('infoCards.naturalizationApplication.title')}
+          description={t('infoCards.naturalizationApplication.description')}
           daysUntil={15}
           onClick={() => setOpenModal('naturalization')}
         />
