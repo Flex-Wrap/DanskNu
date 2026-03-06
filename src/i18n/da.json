@@ -92,28 +92,34 @@
       "title": "Dansk statsborgerskabsprøve",
       "content": "Den danske statsborgerskabsprøve vurderer din viden om dansk kultur, historie, samfund og værdier. Denne eksamen er et vigtigt trin på vejen til at blive dansk borger.",
       "keyInformation": "Vigtige informationer:",
-      "duration": "Varighed: ca. 45 minutter",
-      "format": "Format: Multiple choice spørgsmål",
-      "passingScore": "Beståelsesscore: 40 ud af 60 point",
-      "cost": "Cost: DKK 1.000 (omkring €135)"
+      "items": [
+        "Varighed: ca. 45 minutter",
+        "Format: Multiple choice spørgsmål",
+        "Beståelsesscore: 40 ud af 60 point",
+        "Kostnad: DKK 1.000 (omkring €135)"
+      ]
     },
     "danishLanguageExam": {
       "title": "Dansk sprogprøve",
       "content": "Den danske sprogprøve vurderer din færdighed i at læse, skrive, høre og tale dansk. Det er et krav for at demonstrere integrationsevne og er ofte påkrævet ved ansøgninger om statsborgerskab.",
       "keyInformation": "Vigtige informationer:",
-      "duration": "Varighed: 3-4 timer afhængigt af niveau",
-      "levels": "Niveauer: A2, B1, B2",
-      "passingScore": "Beståelsesscore: Mindst B1 niveau påkrævet",
-      "format": "Format: Skriftlige og mundtlige komponenter"
+      "items": [
+        "Varighed: 3-4 timer afhængigt af niveau",
+        "Niveauer: A2, B1, B2",
+        "Beståelsesscore: Mindst B1 niveau påkrævet",
+        "Format: Skriftlige og mundtlige komponenter"
+      ]
     },
     "naturalizationApplication": {
       "title": "Naturaliseringsansøgning",
       "content": "Naturaliseringsprocessen giver dig mulighed for formelt at ansøge om dansk statsborgerskab. Dette er det sidste trin efter at have opfyldt alle krav, herunder sprogfærdighed og statsborgerskabsprøve.",
       "keyInformation": "Vigtige informationer:",
-      "requiredDocuments": "Påkrævede dokumenter: Pas, sprogcertifikat, bevis for statsborgerskabsprøve",
-      "processingTime": "Behandlingstid: 3-6 måneder",
-      "applicationFee": "Ansøgningsgebyr: DKK 2.650 (omkring €355)",
-      "submitTo": "Indsend ansøgninger til: Den danske Immigrationsstyrelse"
+      "items": [
+        "Påkrævede dokumenter: Pas, sprogcertifikat, bevis for statsborgerskabsprøve",
+        "Behandlingstid: 3-6 måneder",
+        "Ansøgningsgebyr: DKK 2.650 (omkring €355)",
+        "Indsend ansøgninger til: Den danske Immigrationsstyrelse"
+      ]
     }
   },
   "forms": {

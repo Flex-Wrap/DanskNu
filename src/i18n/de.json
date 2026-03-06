@@ -92,28 +92,34 @@
       "title": "Dänische Staatsbürgerschaftsprüfung",
       "content": "Die dänische Staatsbürgerschaftsprüfung bewertet dein Wissen über dänische Kultur, Geschichte, Gesellschaft und Werte. Diese Prüfung ist ein wichtiger Schritt auf deinem Weg zum dänischen Bürger.",
       "keyInformation": "Wichtige Informationen:",
-      "duration": "Dauer: Etwa 45 Minuten",
-      "format": "Format: Multiple-Choice-Fragen",
-      "passingScore": "Bestandene Punktzahl: 40 von 60 Punkten",
-      "cost": "Kosten: DKK 1.000 (ca. €135)"
+      "items": [
+        "Dauer: Etwa 45 Minuten",
+        "Format: Multiple-Choice-Fragen",
+        "Bestandene Punktzahl: 40 von 60 Punkten",
+        "Kosten: DKK 1.000 (ca. €135)"
+      ]
     },
     "danishLanguageExam": {
       "title": "Dänische Sprachprüfung",
       "content": "Die dänische Sprachprüfung bewertet deine Kompetenz im Lesen, Schreiben, Hören und Sprechen der dänischen Sprache. Es ist eine Voraussetzung für den Nachweis der Integrationskompetenz und wird oft für Anträge auf Staatsbürgerschaft verlangt.",
       "keyInformation": "Wichtige Informationen:",
-      "duration": "Dauer: 3-4 Stunden je nach Stufe",
-      "levels": "Niveaus: A2, B1, B2",
-      "passingScore": "Bestandene Punktzahl: Mindestens B1-Niveau erforderlich",
-      "format": "Format: Schriftliche und mündliche Komponenten"
+      "items": [
+        "Dauer: 3-4 Stunden je nach Stufe",
+        "Niveaus: A2, B1, B2",
+        "Bestandene Punktzahl: Mindestens B1-Niveau erforderlich",
+        "Format: Schriftliche und mündliche Komponenten"
+      ]
     },
     "naturalizationApplication": {
       "title": "Einbürgerungsantrag",
       "content": "Das Einbürgerungsverfahren ermöglicht es dir, offiziell die dänische Staatsbürgerschaft zu beantragen. Dies ist der letzte Schritt nach Erfüllung aller Anforderungen, einschließlich Sprachkompetenz und Staatsbürgerschaftsprüfung.",
       "keyInformation": "Wichtige Informationen:",
-      "requiredDocuments": "Erforderliche Dokumente: Pass, Sprachzertifikat, Nachweis der Staatsbürgerschaftsprüfung",
-      "processingTime": "Bearbeitungszeit: 3-6 Monate",
-      "applicationFee": "Antragsgebür: DKK 2.650 (ca. €355)",
-      "submitTo": "Anträge einreichen an: Der dänischen Einwanderungsdienst"
+      "items": [
+        "Erforderliche Dokumente: Pass, Sprachzertifikat, Nachweis der Staatsbürgerschaftsprüfung",
+        "Bearbeitungszeit: 3-6 Monate",
+        "Antragsgebür: DKK 2.650 (ca. €355)",
+        "Anträge einreichen an: Der dänischen Einwanderungsdienst"
+      ]
     }
   },
   "forms": {

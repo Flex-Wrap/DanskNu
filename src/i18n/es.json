@@ -92,28 +92,34 @@
       "title": "Examen de nacionalidad danesa",
       "content": "El examen de nacionalidad danesa evalúa tu conocimiento de la cultura, historia, sociedad y valores daneses. Este examen es un paso crucial en tu camino para convertirte en ciudadano danés.",
       "keyInformation": "Información clave:",
-      "duration": "Duración: Aproximadamente 45 minutos",
-      "format": "Formato: Preguntas de opción múltiple",
-      "passingScore": "Puntuación de aprobación: 40 de 60 puntos",
-      "cost": "Costo: DKK 1.000 (aproximadamente €135)"
+      "items": [
+        "Duración: Aproximadamente 45 minutos",
+        "Formato: Preguntas de opción múltiple",
+        "Puntuación de aprobación: 40 de 60 puntos",
+        "Costo: DKK 1.000 (aproximadamente €135)"
+      ]
     },
     "danishLanguageExam": {
       "title": "Examen de idioma danés",
       "content": "El examen de idioma danés evalúa tu competencia en lectura, escritura, comprensión auditiva y expresión oral en danés. Es un requisito para demostrar competencia de integración y a menudo se requiere para solicitudes de ciudadanía.",
       "keyInformation": "Información clave:",
-      "duration": "Duración: 3-4 horas dependiendo del nivel",
-      "levels": "Niveles: A2, B1, B2",
-      "passingScore": "Puntuación de aprobación: Mínimo nivel B1 requerido",
-      "format": "Formato: Componentes escritos y orales"
+      "items": [
+        "Duración: 3-4 horas dependiendo del nivel",
+        "Niveles: A2, B1, B2",
+        "Puntuación de aprobación: Mínimo nivel B1 requerido",
+        "Formato: Componentes escritos y orales"
+      ]
     },
     "naturalizationApplication": {
       "title": "Solicitud de naturalización",
       "content": "El proceso de naturalización te permite solicitar formalmente la ciudadanía danesa. Este es el paso final después de cumplir todos los requisitos, incluida la competencia lingüística y la prueba de ciudadanía.",
       "keyInformation": "Información clave:",
-      "requiredDocuments": "Documentos requeridos: Pasaporte, certificado de idioma, prueba del examen de ciudadanía",
-      "processingTime": "Tiempo de procesamiento: 3-6 meses",
-      "applicationFee": "Tarifa de solicitud: DKK 2.650 (aproximadamente €355)",
-      "submitTo": "Enviar solicitudes a: El Servicio de Inmigración Danés"
+      "items": [
+        "Documentos requeridos: Pasaporte, certificado de idioma, prueba del examen de ciudadanía",
+        "Tiempo de procesamiento: 3-6 meses",
+        "Tarifa de solicitud: DKK 2.650 (aproximadamente €355)",
+        "Enviar solicitudes a: El Servicio de Inmigración Danés"
+      ]
     }
   },
   "forms": {

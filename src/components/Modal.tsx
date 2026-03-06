@@ -6,11 +6,11 @@ interface ModalProps {
   isOpen: boolean
   onClose: () => void
   title: string
-  daysUntil?: number
+  deadlineDate?: string // ISO format: YYYY-MM-DD
   children: React.ReactNode
 }
 
-export default function Modal({ isOpen, onClose, title, daysUntil, children }: ModalProps) {
+export default function Modal({ isOpen, onClose, title, deadlineDate, children }: ModalProps) {
   const { t } = useTranslation()
   if (!isOpen) return null
 
@@ -20,11 +20,10 @@ export default function Modal({ isOpen, onClose, title, daysUntil, children }: M
     }
   }
 
-  const getDeadlineDate = () => {
-    if (!daysUntil) return null
-    const today = new Date()
-    const deadline = new Date(today.getTime() + daysUntil * 24 * 60 * 60 * 1000)
-    return deadline.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
+  const getFormattedDeadlineDate = () => {
+    if (!deadlineDate) return null
+    const date = new Date(deadlineDate)
+    return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
   }
 
   return (
@@ -35,8 +34,8 @@ export default function Modal({ isOpen, onClose, title, daysUntil, children }: M
             <h2 id="modal-title" className={styles.title}>
               {title}
             </h2>
-            {daysUntil && (
-              <p className={styles.date}>{t('common.deadline')}: {getDeadlineDate()}</p>
+            {deadlineDate && (
+              <p className={styles.date}>{t('common.deadline')}: {getFormattedDeadlineDate()}</p>
             )}
           </div>
           <button

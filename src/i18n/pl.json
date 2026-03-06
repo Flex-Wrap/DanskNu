@@ -92,28 +92,34 @@
       "title": "Duński egzamin obywatelski",
       "content": "Duński egzamin obywatelski ocenia twoją wiedzę na temat duńskiej kultury, historii, społeczeństwa i wartości. Ten egzamin jest kluczowym krokiem na twojej drodze do zostania obywatelem duńskim.",
       "keyInformation": "Ważne informacje:",
-      "duration": "Czas trwania: Około 45 minut",
-      "format": "Format: Pytania wielokrotnego wyboru",
-      "passingScore": "Punktacja zaliczenia: 40 z 60 punktów",
-      "cost": "Koszt: DKK 1 000 (około €135)"
+      "items": [
+        "Czas trwania: Około 45 minut",
+        "Format: Pytania wielokrotnego wyboru",
+        "Punktacja zaliczenia: 40 z 60 punktów",
+        "Koszt: DKK 1 000 (około €135)"
+      ]
     },
     "danishLanguageExam": {
       "title": "Duński egzamin z języka",
       "content": "Duński egzamin z języka ocenia twoją umiejętność czytania, pisania, słuchania i mówienia po duńsku. Jest to wymóg wykazania kompetencji integracyjnych i często wymagane dla wniosków o obywatelstwo.",
       "keyInformation": "Ważne informacje:",
-      "duration": "Czas trwania: 3-4 godziny w zależności od poziomu",
-      "levels": "Poziomy: A2, B1, B2",
-      "passingScore": "Punktacja zaliczenia: Wymagany co najmniej poziom B1",
-      "format": "Format: Komponenty pisemne i ustne"
+      "items": [
+        "Czas trwania: 3-4 godziny w zależności od poziomu",
+        "Poziomy: A2, B1, B2",
+        "Punktacja zaliczenia: Wymagany co najmniej poziom B1",
+        "Format: Komponenty pisemne i ustne"
+      ]
     },
     "naturalizationApplication": {
       "title": "Wniosek o naturalizację",
       "content": "Proces naturalizacji umożliwia formalnie ubieganie się o obywatelstwo duńskie. Jest to ostatni etap po spełnieniu wszystkich wymagań, w tym biegłości w języku i egzaminu obywatelskiego.",
       "keyInformation": "Ważne informacje:",
-      "requiredDocuments": "Wymagane dokumenty: Paszport, certifikat językowy, potwierdzenie egzaminu obywatelskiego",
-      "processingTime": "Czas przetwarzania: 3-6 miesięcy",
-      "applicationFee": "Opłata za wniosek: DKK 2 650 (około €355)",
-      "submitTo": "Wniosek należy przesłać do: Duńskiego Urzędu Imigracji"
+      "items": [
+        "Wymagane dokumenty: Paszport, certifikat językowy, potwierdzenie egzaminu obywatelskiego",
+        "Czas przetwarzania: 3-6 miesięcy",
+        "Opłata za wniosek: DKK 2 650 (około €355)",
+        "Wniosek należy przesłać do: Duńskiego Urzędu Imigracji"
+      ]
     }
   },
   "forms": {

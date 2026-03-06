@@ -92,28 +92,34 @@
       "title": "Danish Nationality Exam",
       "content": "The Danish Nationality Exam, officially known as the Danish Citizenship Test, assesses your knowledge of Danish culture, history, society, and values. This examination is a crucial step in your path to becoming a Danish citizen.",
       "keyInformation": "Key Information:",
-      "duration": "Duration: Approximately 45 minutes",
-      "format": "Format: Multiple choice questions",
-      "passingScore": "Passing score: 40 out of 60 points",
-      "cost": "Cost: DKK 1,000 (approximately €135)"
+      "items": [
+        "Duration: Approximately 45 minutes",
+        "Format: Multiple choice questions",
+        "Passing score: 40 out of 60 points",
+        "Cost: DKK 1,000 (approximately €135)"
+      ]
     },
     "danishLanguageExam": {
       "title": "Danish Language Exam",
       "content": "The Danish Language Exam evaluates your proficiency in reading, writing, listening, and speaking Danish. It's a requirement for demonstrating integration competency and is often required for citizenship applications.",
       "keyInformation": "Key Information:",
-      "duration": "Duration: 3-4 hours depending on the level",
-      "levels": "Levels: A2, B1, B2",
-      "passingScore": "Passing score: Minimum B1 level typically required",
-      "format": "Format: Written and oral components"
+      "items": [
+        "Duration: 3-4 hours depending on the level",
+        "Levels: A2, B1, B2",
+        "Passing score: Minimum B1 level typically required",
+        "Format: Written and oral components"
+      ]
     },
     "naturalizationApplication": {
       "title": "Naturalization Application",
       "content": "The naturalization process allows you to formally apply for Danish citizenship. This is the final step after meeting all requirements including language proficiency and citizenship test.",
       "keyInformation": "Key Information:",
-      "requiredDocuments": "Required documents: Passport, language certificate, citizenship test proof",
-      "processingTime": "Processing time: 3-6 months",
-      "applicationFee": "Application fee: DKK 2,650 (approximately €355)",
-      "submitTo": "Submit applications to: The Danish Immigration Service"
+      "items": [
+        "Required documents: Passport, language certificate, citizenship test proof",
+        "Processing time: 3-6 months",
+        "Application fee: DKK 2,650 (approximately €355)",
+        "Submit applications to: The Danish Immigration Service"
+      ]
     }
   },
   "forms": {
