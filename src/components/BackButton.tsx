@@ -6,10 +6,7 @@ import styles from './BackButton.module.css'
 export default function BackButton() {
   const { t } = useTranslation()
   const location = useLocation()
-
-  if (location.pathname === '/') {
-    return null
-  }
+  const isOnHomePage = location.pathname === '/'
 
   const handleBack = () => {
     window.history.back()
@@ -19,6 +16,7 @@ export default function BackButton() {
     <button
       className={styles.backButton}
       onClick={handleBack}
+      disabled={isOnHomePage}
       aria-label="Go back"
     >
       <ChevronLeft size={20} className={styles.arrow} />
