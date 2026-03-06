@@ -5,7 +5,8 @@
     "submit": "Wyślij",
     "loadingQuestions": "Ładowanie pytań...",
     "loadingQuiz": "Ładowanie quizu...",
-    "deadline": "Termin"
+    "deadline": "Termin",
+    "days": "dni"
   },
   "pages": {
     "titles": {

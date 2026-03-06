@@ -5,7 +5,8 @@
     "submit": "Send",
     "loadingQuestions": "Indlæser spørgsmål...",
     "loadingQuiz": "Indlæser quiz...",
-    "deadline": "Deadline"
+    "deadline": "Deadline",
+    "days": "dage"
   },
   "pages": {
     "titles": {

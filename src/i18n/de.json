@@ -5,7 +5,8 @@
     "submit": "Absenden",
     "loadingQuestions": "Fragen werden geladen...",
     "loadingQuiz": "Quiz wird geladen...",
-    "deadline": "Frist"
+    "deadline": "Frist",
+    "days": "Tage"
   },
   "pages": {
     "titles": {
