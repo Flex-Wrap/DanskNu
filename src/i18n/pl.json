@@ -152,5 +152,79 @@
     "heading": "Poprawiaj swoje słabe strony",
     "description": "Wpisz swój e-mail, aby zobaczyć pytania z tematów, w których miałeś trudności.",
     "noResultsMessage": "Nie znaleziono poprzednich wyników dla tego adresu e-mail. Wykonywanie normalnego quizu w celu ustalenia linii bazowej."
+  },
+  "applicationRequirementsContent": {
+    "generalInformation": {
+      "title": "Ogólne informacje na temat nabycia obywatelstwa duńskiego",
+      "paragraphs": [
+        "Obcokrajowcy mogą nabyć obywatelstwo duńskie tylko na mocy ustawy. Jako taki obcokrajowiec musi być wymieniony w projekcie ustawy o naturalizacji, która jest następnie uchwalana przez duński parlament. Proces ten określa się mianem nabycia obywatelstwa duńskiego przez naturalizację.",
+        "Od tej reguły zwolnieni są określeni obywatele nordyccy i byli obywatele duńscy.",
+        "Aby nabyć obywatelstwo duńskie przez naturalizację, musisz spełnić określone warunki, takie jak dochodowość, pobyt w Danii, znajomość języka duńskiego i wiedza o Danii."
+      ]
+    },
+    "declarationOfAllegiance": {
+      "title": "Musisz podpisać oświadczenie o lojalności",
+      "paragraphs": [
+        "Warunkiem nabycia obywatelstwa duńskiego przez naturalizację jest złożenie oświadczenia o lojalności wobec Danii i społeczeństwa duńskiego.",
+        "Ponadto musisz oświadczyć, że będziesz przestrzegać prawa duńskiego, w tym konstytucji, oraz że będziesz szanować podstawowe wartości duńskie i zasady prawne, w tym demokrację duńską. Oświadczenia podpisuje się za pośrednictwem MitID w ramach aplikacji cyfrowej."
+      ]
+    },
+    "permanentResidencePermit": {
+      "title": "Musisz posiadać pozwolenie na pobyt stały",
+      "paragraphs": [
+        "Warunkiem nabycia obywatelstwa duńskiego przez naturalizację jest posiadanie pozwolenia na pobyt stały przez co najmniej 2 lata w momencie uchwalenia ustawy naturalizacyjnej i bycie mieszkańcem Danii.",
+        "Dla osób uznanych za uchodźców, osób mających status równoznaczny z uchodźcami oraz osób bezpaństwowych wymagany okres pozwolenia na pobyt stały wynosi co najmniej 1 rok od czasu uchwalenia ustawy naturalizacyjnej."
+      ]
+    },
+    "beingResident": {
+      "title": "Bycie rezydentem Danii",
+      "paragraphs": [
+        "Bycie rezydentem Danii oznacza, że zwykle mieszkasz w Danii i jesteś zarejestrowany na adres w Centralnym Rejestrze Ludności (rejestr CPR).",
+        "Jeśli mieszkasz w Danii zgodnie z zasadami UE – na przykład z certyfikatem rejestracji UE wydanym na mocy rozporządzenia o pobycie UE – powinieneś pamiętać, że wymóg dotyczący pozwolenia na pobyt stały dotyczy również ciebie."
+      ]
+    },
+    "exemptions": {
+      "title": "Kandydaci zwolnieni z warunków",
+      "paragraphs": [
+        "Niektórzy kandydaci są zwolnieni z jednego lub obu warunków dotyczących pozwolenia na pobyt stały i pobytu w Danii.",
+        "Warunek pozwolenia na pobyt stały w Danii przez co najmniej 2 lata w momencie uchwalenia ustawy naturalizacyjnej nie dotyczy:"
+      ],
+      "exemptFromResidencePermit": [
+        "Obywateli nordyckich",
+        "Byłych obywateli duńskich",
+        "Osób duńskiego pochodzenia",
+        "Członków duńskiej mniejszości południowosaksońskiej w Niemczech",
+        "Kandydatów pracujących za granicą z powodu pracy duńskiego małżonka dla interesów duńskich",
+        "Kandydatów urodzonych w okresie od 1 stycznia 1961 r. do 31 grudnia 1978 r. z matką duńską i którzy mogli nabyć obywatelstwo duńskie, gdyby matka złożyła w tym okresie oświadczenie od 1 stycznia 1979 r. do 31 grudnia 1981 r.",
+        "Dzieci ubiegające się o obywatelstwo bez swoich rodziców"
+      ],
+      "residenceNotRequired": "Warunek pobytu w Danii nie dotyczy:",
+      "exemptFromResidence": [
+        "Kandydatów pracujących za granicą z powodu pracy duńskiego małżonka dla interesów duńskich",
+        "Kandydatów urodzonych w okresie od 1 stycznia 1961 r. do 31 grudnia 1978 r. z matką duńską i którzy mogli nabyć obywatelstwo duńskie, gdyby matka złożyła w tym okresie oświadczenie od 1 stycznia 1979 r. do 31 grudnia 1981 r.",
+        "Niektóre kategorie dzieci ubiegające się o obywatelstwo bez swoich rodziców"
+      ]
+    },
+    "debt": {
+      "title": "Długi wobec władz publicznych",
+      "paragraphs": [
+        "Warunkiem nabycia obywatelstwa duńskiego jest brak określonych rodzajów przeterminowanych długów wobec władz publicznych.",
+        "Nie możesz mieć następujących rodzajów przeterminowanych długów wobec władz publicznych:"
+      ],
+      "debtTypes": [
+        "Świadczenia zwrotne na mocy ustawy o usługach społecznych lub ustawy o aktywnej polityce rynku pracy",
+        "Świadczenia zwrotne na mocy uchylonej ustawy o pomocy społecznej",
+        "Alimenty na rzecz dziecka wypłacane z góry przez władze publiczne na mocy ustawy o zasiłku rodzinnym i zaliczce alimentów",
+        "Opłaty za żłobek",
+        "Pożyczki studenckie (pożyczki SU)",
+        "Zwrot nadpłaconego zasiłku mieszkaniowego na mocy § 47 ustawy o indywidualnym zasiłku mieszkaniowym",
+        "Opłata za przejazd do usług transportu w wysokości DKK 3000 i więcej",
+        "Grzywny policji i składki ofiar",
+        "Opłaty sądowe, opłaty i koszty w postępowaniu sądowym i egzekucyjnym",
+        "Spłata pożyczki depozytowej na mieszkanie, chyba że zawarto umowę spłaty, którą kandydat przestrzega",
+        "Podatki i opłaty, chyba że kandydat zaległ bez swojej winy"
+      ],
+      "finalNote": "Pamiętaj, że jeśli nie udzielono przedłużenia płatności lub nie zawarto umowy spłaty (z wyjątkiem pożyczki depozytowej na mieszkanie i/lub depozytu mieszkańca), długi mogą wykluczyć przeniesienie obywatelstwa na mocy punktu 22 wytycznych."
+    }
   }
 }

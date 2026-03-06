@@ -151,6 +151,78 @@
   "improve": {
     "heading": "Verbessern Sie Ihre schwachen Bereiche",
     "description": "Geben Sie Ihre E-Mail ein, um Fragen zu Themen zu sehen, mit denen Sie Schwierigkeiten hatten.",
-    "noResultsMessage": "Keine bisherigen Ergebnisse für diese E-Mail gefunden. Es wird ein normales Quiz durchgeführt, um eine Basislinie zu erstellen."
-  }
+    "noResultsMessage": "Keine bisherigen Ergebnisse für diese E-Mail gefunden. Es wird ein normales Quiz durchgeführt, um eine Basislinie zu erstellen."  },
+  "applicationRequirementsContent": {
+    "generalInformation": {
+      "title": "Allgemeine Informationen zum Erwerb der dänischen Staatsbürgerschaft",
+      "paragraphs": [
+        "Ausländer können die dänische Staatsbürgerschaft nur durch Gesetz erwerben. Daher muss der Ausländer in einem Naturalisierungsgesetz aufgeführt sein, das dann vom Dänischen Parlament verabschiedet wird. Dieser Prozess wird als Erwerb der dänischen Staatsbürgerschaft durch Naturalisierung bezeichnet.",
+        "Bestimmte nordische Bürger und ehemalige dänische Bürger sind von dieser Regel ausgenommen.",
+        "Um die dänische Staatsbürgerschaft durch Naturalisierung zu erwerben, müssen Sie bestimmte Bedingungen erfüllen, beispielsweise finanzielle Unabhängigkeit, Wohnsitz in Dänemark, dänische Sprachkenntnisse und Kenntnisse über Dänemark."
+      ]
+    },
+    "declarationOfAllegiance": {
+      "title": "Sie müssen eine Unterwerfungs- und Treueerklärung unterzeichnen",
+      "paragraphs": [
+        "Es ist eine Bedingung für den Erwerb der dänischen Staatsbürgerschaft durch Naturalisierung, dass Sie Ihre Treue und Loyalität gegenüber Dänemark und der dänischen Gesellschaft erklären.",
+        "Darüber hinaus müssen Sie erklären, dass Sie sich an das dänische Recht, einschließlich der Verfassung, halten und dass Sie grundlegende dänische Werte und Rechtsprinzipien, einschließlich der dänischen Demokratie, respektieren werden. Die Erklärungen werden über MitID als Teil der digitalen Bewerbung unterzeichnet."
+      ]
+    },
+    "permanentResidencePermit": {
+      "title": "Sie müssen eine Aufenthaltserlaubnis haben",
+      "paragraphs": [
+        "Es ist eine Bedingung für den Erwerb der dänischen Staatsbürgerschaft durch Naturalisierung, dass Sie eine Aufenthaltserlaubnis von mindestens 2 Jahren haben, wenn das Naturalisierungsgesetz verabschiedet wird, und dass Sie in Dänemark wohnhaft sind.",
+        "Für Personen, die als Flüchtlinge anerkannt sind, Personen, die als Flüchtlinge gleichgestellt sind, und Staatenlosen beträgt der erforderliche Aufenthaltszeitraum mindestens 1 Jahr ab dem Zeitpunkt, in dem das Naturalisierungsgesetz verabschiedet wird."
+      ]
+    },
+    "beingResident": {
+      "title": "Ein in Dänemark ansässiger sein",
+      "paragraphs": [
+        "Ein in Dänemark ansässig sein bedeutet, dass Sie normalerweise in Dänemark wohnen und mit einer Adresse im Zentralen Personenregister (CPR-Register) registriert sind.",
+        "Wenn Sie in Dänemark gemäß EU-Vorschriften wohnhaft sind – beispielsweise mit einem EU-Registrierungszertifikat nach der Verordnung über den EU-Aufenthalt – sollten Sie beachten, dass die Anforderung bezüglich einer Aufenthaltserlaubnis auch für Sie gilt."
+      ]
+    },
+    "exemptions": {
+      "title": "Antragsteller, die von den Bedingungen ausgenommen sind",
+      "paragraphs": [
+        "Bestimmte Antragsteller sind von einer oder beiden Bedingungen bezüglich Aufenthaltserlaubnis und Aufenthalt in Dänemark ausgenommen.",
+        "Die Bedingung einer Aufenthaltserlaubnis in Dänemark für mindestens 2 Jahre, wenn das Naturalisierungsgesetz verabschiedet wird, gilt nicht für:"
+      ],
+      "exemptFromResidencePermit": [
+        "Nordische Bürger",
+        "Ehemalige dänische Bürger",
+        "Personen dänischer Abstammung",
+        "Mitglieder der dänischen Minderheit in Südschleswig in Deutschland",
+        "Antragsteller, die aufgrund der Arbeit des dänischen Ehepartners für dänische Interessen im Ausland tätig sind",
+        "Antragsteller, die in dem Zeitraum vom 1. Januar 1961 bis zum 31. Dezember 1978 von einer dänischen Mutter geboren wurden und die dänische Staatsbürgerschaft hätten erwerben können, wenn die Mutter in dem Zeitraum vom 1. Januar 1979 bis zum 31. Dezember 1981 entsprechend eine Erklärung abgegeben hätte",
+        "Kinder, die ohne ihre Eltern um Staatsbürgerschaft ersuchen"
+      ],
+      "residenceNotRequired": "Die Bedingung des Aufenthalts in Dänemark gilt nicht für:",
+      "exemptFromResidence": [
+        "Antragsteller, die aufgrund der Arbeit des dänischen Ehepartners für dänische Interessen im Ausland tätig sind",
+        "Antragsteller, die in dem Zeitraum vom 1. Januar 1961 bis zum 31. Dezember 1978 von einer dänischen Mutter geboren wurden und die dänische Staatsbürgerschaft hätten erwerben können, wenn die Mutter in dem Zeitraum vom 1. Januar 1979 bis zum 31. Dezember 1981 entsprechend eine Erklärung abgegeben hätte",
+        "Bestimmte Kategorien von Kindern, die ohne ihre Eltern um Staatsbürgerschaft ersuchen"
+      ]
+    },
+    "debt": {
+      "title": "Schulden gegenüber öffentlichen Behörden",
+      "paragraphs": [
+        "Es ist eine Bedingung für den Erwerb der dänischen Staatsbürgerschaft, dass Sie keine bestimmten Arten von überfälligen Schulden gegenüber öffentlichen Behörden haben.",
+        "Sie dürfen nicht folgende Arten von überfälligen Schulden gegenüber öffentlichen Behörden haben:"
+      ],
+      "debtTypes": [
+        "Rückzahlbare Leistungen nach dem Sozialservicegesetz oder dem Gesetz zur aktiven Arbeitsmarktpolitik",
+        "Rückzahlbare Leistungen nach dem nun aufgehobenen Sozialhilfegesetz",
+        "Kindesunterhalt, das von öffentlichen Behörden nach dem Kindergeldzuschuss- und Kindesunterhaltsvorschussgesetz im Voraus gezahlt wird",
+        "Kindertagesstättenzahlungen",
+        "Studentendarlehen (SU-Darlehen)",
+        "Rückzahlung überzahlter Wohnungsbauförderung gemäß Absatz 47 des Individualwohnungszuschussgesetzes",
+        "Strafgebühren für Transportdienstleistungen von DKK 3.000 und mehr",
+        "Ordnungsgelder und Opferentschädigungen",
+        "Gerichtsgebühren, Gebühren und Kosten in Gerichtsverfahren und Zwangsvollstreckungsverfahren",
+        "Rückzahlung von Wohnungsbaudarlehen, sofern kein Ratenzahlungsplan vereinbart wurde, den der Antragsteller einhält",
+        "Steuern und Abgaben, sofern der Antragsteller nicht durch eigenes Verschulden in Verzug ist"
+      ],
+      "finalNote": "Bitte beachten Sie, dass bei fehlender Zahlungsverlängerung oder fehlender Ratenzahlungsvereinbarung (mit Ausnahme von Wohnungsbaudarlehen und/oder Mietdeposit) Schulden die Weitergabe der Staatsbürgerschaft gemäß Punkt 22 der Richtlinien ausschließen können."
+    }  }
 }

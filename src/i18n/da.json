@@ -151,6 +151,78 @@
   "improve": {
     "heading": "Forbedre dine svage områder",
     "description": "Angiv din e-mail for at se spørgsmål fra emner, du kæmpede med.",
-    "noResultsMessage": "Ingen tidligere resultater fundet for denne e-mail. Laver en normal quiz for at etablere en baseline."
-  }
+    "noResultsMessage": "Ingen tidligere resultater fundet for denne e-mail. Laver en normal quiz for at etablere en baseline."  },
+  "applicationRequirementsContent": {
+    "generalInformation": {
+      "title": "Generel information om erhvervelse af dansk statsborgerskab",
+      "paragraphs": [
+        "Udenlandske statsborgere kan kun erhverve dansk statsborgerskab ved lov. Derfor skal den udenlandske statsborger være optaget på en naturaliseringslov, som derefter vedtages af Folketinget. Denne proces kaldes erhvervelse af dansk statsborgerskab ved naturalisering.",
+        "Visse nordiske statsborgere og tidligere danske statsborgere er undtaget fra denne regel.",
+        "For at erhverve dansk statsborgerskab ved naturalisering skal du opfylde visse betingelser, for eksempel selvforsørgelse, ophold i Danmark, danske sprogkundskaber og kendskab til Danmark."
+      ]
+    },
+    "declarationOfAllegiance": {
+      "title": "Du skal skrive under på en erklæring om loyalitet og troskab",
+      "paragraphs": [
+        "Det er en betingelse for at erhverve dansk statsborgerskab ved naturalisering, at du erklærer troskab og loyalitet over for Danmark og det danske samfund.",
+        "Derudover skal du erklære, at du vil overholde dansk lovgivning, herunder grundloven, og at du vil respektere grundlæggende danske værdier og juridiske principper, herunder dansk demokrati. Erklæringerne underskrives via MitID som en del af den digitale ansøgning."
+      ]
+    },
+    "permanentResidencePermit": {
+      "title": "Du skal have opholdstilladelse",
+      "paragraphs": [
+        "Det er en betingelse for at erhverve dansk statsborgerskab ved naturalisering, at du har haft opholdstilladelse i minimum 2 år, når naturaliseringsloven vedtages, og at du er bosat i Danmark.",
+        "For personer, der er anerkendt som flygtninge, personer, der skal sidestilles med flygtninge, og statsløse personer, er den påkrævede periode for opholdstilladelse minimum 1 år fra det tidspunkt, da naturaliseringsloven vedtages."
+      ]
+    },
+    "beingResident": {
+      "title": "At være bosiddende i Danmark",
+      "paragraphs": [
+        "At være bosiddende i Danmark betyder, at du normalt bor i Danmark og er registreret med en adresse i Det Centrale Personregister (CPR-registeret).",
+        "Hvis du er bosat i Danmark efter EU-regler – for eksempel et EU-registreringsbevis udstedt efter forordningen om EU-ophold – skal du være opmærksom på, at betingelsen vedrørende opholdstilladelse også gælder for dig."
+      ]
+    },
+    "exemptions": {
+      "title": "Ansøgere, der er undtaget fra betingelserne",
+      "paragraphs": [
+        "Visse ansøgere er undtaget fra en eller begge betingelser vedrørende opholdstilladelse og ophold i Danmark.",
+        "Betingelsen om opholdstilladelse i Danmark i minimum 2 år, når naturaliseringsloven vedtages, gælder ikke for:"
+      ],
+      "exemptFromResidencePermit": [
+        "Nordiske statsborgere",
+        "Tidligere danske statsborgere",
+        "Personer af dansk afstamning",
+        "Medlemmer af det danske mindretal i Sydslesvig i Tyskland",
+        "Ansøgere, der er udsendt i udlandet på grund af ægtefællens arbejde for danske interesser",
+        "Ansøgere, der er født i perioden 1. januar 1961 til 31. december 1978 af en dansk mor, og som kunne have erhvervet dansk statsborgerskab, hvis moderen havde afgivet en erklæring herom i perioden 1. januar 1979 til 31. december 1981",
+        "Børn, der ansøger om statsborgerskab uden deres forældre"
+      ],
+      "residenceNotRequired": "Betingelsen om ophold i Danmark gælder ikke for:",
+      "exemptFromResidence": [
+        "Ansøgere, der er udsendt i udlandet på grund af ægtefællens arbejde for danske interesser",
+        "Ansøgere, der er født i perioden 1. januar 1961 til 31. december 1978 af en dansk mor, og som kunne have erhvervet dansk statsborgerskab, hvis moderen havde afgivet en erklæring herom i perioden 1. januar 1979 til 31. december 1981",
+        "Visse kategorier af børn, der ansøger om statsborgerskab uden deres forældre"
+      ]
+    },
+    "debt": {
+      "title": "Gæld til offentlige myndigheder",
+      "paragraphs": [
+        "Det er en betingelse for at erhverve dansk statsborgerskab, at du ikke har visse typer forfalden gæld til offentlige myndigheder.",
+        "Du må ikke have følgende typer forfalden gæld til offentlige myndigheder:"
+      ],
+      "debtTypes": [
+        "Tilskud, der kan kræves tilbage i henhold til lov om sociale services eller lov om aktiv arbejdsmarkedspolitik",
+        "Tilskud, der kan kræves tilbage i henhold til den nu ophævet lov om social bistand",
+        "Børnebidrag, der betales på forhånd af offentlige myndigheder i henhold til lov om børnefamilieydelse og forskudsbetaling af børnebidrag",
+        "Daginstitutionsbetalinger",
+        "Statslån (SU-lån)",
+        "Tilbagebetaling af overskydende boligstøtte i henhold til § 47 i lov om individuel boligstøtte",
+        "Stopgebyr til transporttjenester på DKK 3.000 og derover",
+        "Politibøder og offerbetaling",
+        "Retsgebyrer, gebyrer og omkostninger i retssager og tvangsfuldbyrelsessager",
+        "Tilbagebetaling af boliglånslån, medmindre en betalingsaftalse er indgået, som ansøgeren overholder",
+        "Skatter og afgifter, medmindre ansøgeren er forsinket uden egen skyld"
+      ],
+      "finalNote": "Bemærk venligst, at hvor der ikke gives betalingsfrist, eller der ikke indgås betalingsaftale (med undtagelse af boliglånslån og/eller lejeboligdepositum), kan gæld udelukke videreførelse af statsborgerskab i henhold til punkt 22 i retningslinjerne."
+    }  }
 }

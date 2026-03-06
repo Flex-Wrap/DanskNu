@@ -151,6 +151,78 @@
   "improve": {
     "heading": "Mejora tus áreas débiles",
     "description": "Ingresa tu correo electrónico para ver preguntas de temas con los que tuviste dificultades.",
-    "noResultsMessage": "No se encontraron resultados anteriores para este correo electrónico. Realizando un cuestionario normal para establecer una línea de base."
-  }
+    "noResultsMessage": "No se encontraron resultados anteriores para este correo electrónico. Realizando un cuestionario normal para establecer una línea de base."  },
+  "applicationRequirementsContent": {
+    "generalInformation": {
+      "title": "Información general sobre la adquisición de la ciudadanía danesa",
+      "paragraphs": [
+        "Los ciudadanos extranjeros solo pueden adquirir la ciudadanía danesa por ley. Como tal, el ciudadano extranjero debe estar incluido en un proyecto de ley de naturalización, que luego es aprobado por el Parlamento Danés. Este proceso se llama adquisición de ciudadanía danesa por naturalización.",
+        "Ciertos ciudadanos nórdicos y antigüos ciudadanos daneses están exentos de esta regla.",
+        "Para adquirir la ciudadanía danesa por naturalización, debe cumplir con ciertas condiciones, como autosuficiencia, residencia en Dinamarca, habilidades en idioma danés y conocimiento de Dinamarca."
+      ]
+    },
+    "declarationOfAllegiance": {
+      "title": "Debe firmar una declaración de lealtad",
+      "paragraphs": [
+        "Es un requisito para adquirir la ciudadanía danesa por naturalización declarar lealtad a Dinamarca y a la sociedad danesa.",
+        "Además, debe declarar que cumplirá con la ley danesa, incluida la constitución, y que respetará los valores fundamentales daneses y los principios legales, incluida la democracia danesa. Las declaraciones se firman a través de MitID como parte de la solicitud digital."
+      ]
+    },
+    "permanentResidencePermit": {
+      "title": "Debe tener un permiso de residencia permanente",
+      "paragraphs": [
+        "Es un requisito para adquirir la ciudadanía danesa por naturalización que haya tenido un permiso de residencia permanente por un mínimo de 2 años cuando se aprueba la ley de naturalización, y que sea residente en Dinamarca.",
+        "Para personas reconocidas como refugiadas, personas que deben ser equiparadas con refugiadas y personas apátridas, el período requerido de permiso de residencia permanente es mínimo de 1 año desde el momento en que se aprueba la ley de naturalización."
+      ]
+    },
+    "beingResident": {
+      "title": "Ser residente en Dinamarca",
+      "paragraphs": [
+        "Ser residente en Dinamarca significa que habita ordinariamente en Dinamarca y está registrado con una dirección en el Registro Central de Población (registro CPR).",
+        "Si reside en Dinamarca de conformidad con las normas de la UE, por ejemplo, certificado de registro de la UE emitido conforme a la Regulación sobre residencia de la UE, debe tener en cuenta que el requisito relativo a un permiso de residencia permanente también se aplica a usted."
+      ]
+    },
+    "exemptions": {
+      "title": "Solicitantes que están exentos de las condiciones",
+      "paragraphs": [
+        "Ciertos solicitantes están exentos de una o ambas condiciones con respecto al permiso de residencia permanente y residencia en Dinamarca.",
+        "La condición de permiso de residencia permanente en Dinamarca por un mínimo de 2 años cuando se aprueba la ley de naturalización no se aplica a:"
+      ],
+      "exemptFromResidencePermit": [
+        "Ciudadanos nórdicos",
+        "Antiguos ciudadanos daneses",
+        "Personas de descendencia danesa",
+        "Miembros de la minoría danesa del sur de Schleswig en Alemania",
+        "Solicitantes que residen en el extranjero debido al trabajo del cónyuge danés para intereses daneses",
+        "Solicitantes que nacieron en el período del 1 de enero de 1961 al 31 de diciembre de 1978 de una madre danesa y que podrían haber adquirido la ciudadanía danesa si la madre hubiera hecho una declaración al respecto en el período del 1 de enero de 1979 al 31 de diciembre de 1981",
+        "Niños que solicitan ciudadanía sin sus padres"
+      ],
+      "residenceNotRequired": "La condición de residencia en Dinamarca no se aplica a:",
+      "exemptFromResidence": [
+        "Solicitantes que residen en el extranjero debido al trabajo del cónyuge danés para intereses daneses",
+        "Solicitantes que nacieron en el período del 1 de enero de 1961 al 31 de diciembre de 1978 de una madre danesa y que podrían haber adquirido la ciudadanía danesa si la madre hubiera hecho una declaración al respecto en el período del 1 de enero de 1979 al 31 de diciembre de 1981",
+        "Ciertas categorías de niños que solicitan ciudadanía sin sus padres"
+      ]
+    },
+    "debt": {
+      "title": "Deuda a las autoridades públicas",
+      "paragraphs": [
+        "Es un requisito para adquirir la ciudadanía danesa que no tenga ciertos tipos de deuda vencida a las autoridades públicas.",
+        "No puede tener los siguientes tipos de deuda vencida a las autoridades públicas:"
+      ],
+      "debtTypes": [
+        "Beneficios reembolsables conforme a la Ley de servicios sociales o la Ley de política de empleo activo",
+        "Beneficios reembolsables conforme a la Ley de asistencia social ahora derogada",
+        "Manutención infantil pagada con anticipación por las autoridades públicas conforme a la Ley de asignación por hijo y pago anticipado de manutención infantil",
+        "Pagos de guarderías",
+        "Préstamos para estudiantes (préstamos SU)",
+        "Reembolso de asignación de vivienda pagada en exceso conforme al párrafo 47 de la Ley de asignación de vivienda individual",
+        "Multa por peaje a servicios de transporte de DKK 3,000 y más",
+        "Multas de la policía y contribuciones de víctimas",
+        "Honorarios judiciales, honorarios y costos en procedimientos judiciales y de ejecución",
+        "Reembolso de préstamo de depósito de vivienda, a menos que se haya celebrado un acuerdo de pago a plazos que el solicitante cumple",
+        "Impuestos y derechos, a menos que el solicitante esté en mora por culpa propia"
+      ],
+      "finalNote": "Tenga en cuenta que cuando no se otorga una prórroga de pago o no se celebra un acuerdo de pago a plazos (con excepción de un préstamo de depósito de vivienda y/o depósito de inquilino), la deuda puede impedir la transmisión de la ciudadanía conforme al párrafo 22 de las directrices."
+    }  }
 }

@@ -152,5 +152,79 @@
     "heading": "Improve Your Weak Areas",
     "description": "Enter your email to see questions from topics you struggled with.",
     "noResultsMessage": "No previous results found for this email. Taking a normal quiz to establish a baseline."
+  },
+  "applicationRequirementsContent": {
+    "generalInformation": {
+      "title": "General Information on Acquisition of Danish Citizenship",
+      "paragraphs": [
+        "Foreign citizens can only acquire Danish citizenship by statute. As such the foreign citizen must be listed in a naturalisation bill, which is then passed by the Danish Parliament. This process is called acquisition of Danish citizenship by naturalisation.",
+        "Certain Nordic citizens and former Danish citizens are exempt from this rule.",
+        "To acquire Danish citizenship by naturalisation, you must fulfil certain conditions, for example, self-sufficiency, residence in Denmark, Danish language skills, and knowledge of Denmark."
+      ]
+    },
+    "declarationOfAllegiance": {
+      "title": "You Must Sign a Declaration of Allegiance and Loyalty",
+      "paragraphs": [
+        "It is a condition for acquiring Danish citizenship by naturalisation that you declare allegiance and loyalty to Denmark and to Danish society.",
+        "In addition, you must declare that you will comply with Danish law, including the constitution, and that you will respect fundamental Danish values and legal principles, including Danish democracy. The declarations are signed by MitID as part of the digital application."
+      ]
+    },
+    "permanentResidencePermit": {
+      "title": "You Must Have a Permanent Residence Permit",
+      "paragraphs": [
+        "It is a condition for acquiring Danish citizenship by naturalisation that you have had a permanent residence permit for a minimum of 2 years when the bill on naturalization is passed, and that you are a resident in Denmark.",
+        "For persons who are recognised as refugees, persons who must be equated with refugees, and stateless persons, the required period of a permanent residence permit is minimum 1 year from the time, when the bill on naturalization is passed."
+      ]
+    },
+    "beingResident": {
+      "title": "Being a Resident in Denmark",
+      "paragraphs": [
+        "Being a resident in Denmark means that you habitually reside in Denmark and are registered with an address in the Central Population Register (CPR register).",
+        "If you reside in Denmark according to EU rules – for example, an EU registration certificate issued under the Regulation on EU residence – you should be aware that the requirement relating to a permanent residence permit also applies to you."
+      ]
+    },
+    "exemptions": {
+      "title": "Applicants Who Are Exempt from the Conditions",
+      "paragraphs": [
+        "Certain applicants are exempt from one or both of the conditions regarding permanent residence permit and residence in Denmark.",
+        "The condition of a permanent residence permit in Denmark for a minimum of 2 years when the bill on naturalization is passed, does not apply to:"
+      ],
+      "exemptFromResidencePermit": [
+        "Nordic citizens",
+        "Former Danish citizens",
+        "Persons of Danish descent",
+        "Members of the Danish minority of Southern Schleswig in Germany",
+        "Applicants who are residing abroad due to the Danish spouse's work for Danish interests",
+        "Applicants who were born in the period from 1 January 1961 to 31 December 1978 to a Danish mother and who could have acquired Danish citizenship if the mother had made a declaration in that regard in the period from 1 January 1979 to 31 December 1981",
+        "Children who apply for citizenship without their parents"
+      ],
+      "residenceNotRequired": "The condition of residence in Denmark does not apply to:",
+      "exemptFromResidence": [
+        "Applicants who are residing abroad due to their Danish spouse's work for Danish interests",
+        "Applicants who were born in the period from 1 January 1961 to 31 December 1978 to a Danish mother and who could have acquired Danish citizenship if the mother had made a declaration in that regard in the period from 1 January 1979 to 31 December 1981",
+        "Certain categories of children who apply for citizenship without their parents"
+      ]
+    },
+    "debt": {
+      "title": "Debt to Public Authorities",
+      "paragraphs": [
+        "It is a condition for acquiring Danish citizenship that you do not have certain types of overdue debt to public authorities.",
+        "You may not have the following types of overdue debt to public authorities:"
+      ],
+      "debtTypes": [
+        "Repayable benefits under the Law on social service or the Law on active social policy",
+        "Repayable benefits under the now repealed Law on social assistance",
+        "Child support which is paid in advance by public authorities under the Law on child allowance and advance payment of child support",
+        "Nursery payments",
+        "Student loans (SU-loans)",
+        "Repayment of overpaid housing allowance under Paragraph 47 of the Law on individual housing allowance",
+        "Penalty fare to transport services of DKK 3,000 and over",
+        "Police fines and victim contributions",
+        "Court fees, fees, and costs in litigation and enforcement proceedings",
+        "Repayment of housing deposit loan, unless an instalment agreement for repayment is entered into, with which the applicant complies",
+        "Taxes and duties, unless the applicant is in arrears through no fault of his own"
+      ],
+      "finalNote": "Please be aware that where no extension of payment is granted or no instalment agreement is entered into (with the exception of a housing deposit loan and/or tenant deposit loan), debt may preclude transmission of citizenship under paragraph 22 of the guidelines."
+    }
   }
 }
