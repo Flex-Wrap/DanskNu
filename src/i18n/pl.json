@@ -39,17 +39,17 @@
     "quiz": {
       "title": "Quiz",
       "description": "Przetestuj swoją wiedzę za pomocą naszego interaktywnego quizu",
-      "imageAlt": "Quiz"
+      "imageAlt": "Quiz - test na papierze z opcjami wielokrotnego wyboru i osobą wypełniającą go długopisem"
     },
     "info": {
       "title": "Informacja",
       "description": "Dowiedz się więcej o DanskNu i wymaganiach duńskich",
-      "imageAlt": "Informacja"
+      "imageAlt": "Wysoki budynek nad portem w Aarhus, Dania zwany Dokk1"
     },
     "newsletter": {
       "title": "Biuletyn",
       "description": "Zasubskrybuj, aby otrzymywać aktualizacje i porady",
-      "imageAlt": "Biuletyn"
+      "imageAlt": "Reporter trzymający mikrofon z TV2"
     },
     "applicationRequirements": {
       "title": "Wymagania aplikacji",
@@ -59,12 +59,12 @@
     "normalQuiz": {
       "title": "Weź udział w zwykłym quizie",
       "description": "Przetestuj swoją wiedzę dzięki losowemu wyborowi pytań z egzaminu obywatelskiego",
-      "imageAlt": "Weź udział w zwykłym quizie"
+      "imageAlt": "Quiz - test na papierze z opcjami wielokrotnego wyboru i osobą wypełniającą go długopisem"
     },
     "improve": {
       "title": "Popraw swoje słabe punkty",
       "description": "Weź udział w spersonalizowanym quizie na podstawie twoich poprzednich wyników",
-      "imageAlt": "Popraw swoje słabe punkty",
+      "imageAlt": "Drewniana drabina z rysowanym śladem postępu w górę",
       "badge": "Wymagany adres e-mail"
     }
   },

@@ -5,6 +5,10 @@ const supabaseKey = import.meta.env.VITE_SUPABASE_PUBLISHABLE_DEFAULT_KEY
 
 export const supabase = createClient(supabaseUrl, supabaseKey)
 
+// Debug mode - set to true to limit questions to 10 for testing
+const DEBUG = true
+const DEBUG_LIMIT = 10
+
 // Quiz fetching helpers
 export async function fetchAllQuestions() {
   const { data: questionsData, error: questionsError } = await supabase
@@ -21,8 +25,19 @@ export async function fetchAllQuestions() {
 
   if (answersError) throw answersError
 
+  // Debug limit: if DEBUG is true, only return first 10 questions
+  let questions = questionsData || []
+  if (DEBUG && questions.length > DEBUG_LIMIT) {
+    const questionIds = questions.slice(0, DEBUG_LIMIT).map((q: any) => q.id)
+    const filteredAnswers = (answersData || []).filter((a: any) => questionIds.includes(a.question_id))
+    return {
+      questions: questions.slice(0, DEBUG_LIMIT),
+      answers: filteredAnswers,
+    }
+  }
+
   return {
-    questions: questionsData || [],
+    questions,
     answers: answersData || [],
   }
 }
@@ -72,8 +87,19 @@ export async function fetchWeakAreaQuestions(email: string) {
 
   if (answersError) throw answersError
 
+  // Debug limit: if DEBUG is true, only return first 10 questions
+  let questions = questionsData || []
+  if (DEBUG && questions.length > DEBUG_LIMIT) {
+    const limitedQuestionIds = questions.slice(0, DEBUG_LIMIT).map((q: any) => q.id)
+    const filteredAnswers = (answersData || []).filter((a: any) => limitedQuestionIds.includes(a.question_id))
+    return {
+      questions: questions.slice(0, DEBUG_LIMIT),
+      answers: filteredAnswers,
+    }
+  }
+
   return {
-    questions: questionsData || [],
+    questions,
     answers: answersData || [],
   }
 }

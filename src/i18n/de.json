@@ -39,17 +39,17 @@
     "quiz": {
       "title": "Quiz",
       "description": "Teste dein Wissen mit unserem interaktiven Quiz",
-      "imageAlt": "Quiz"
+      "imageAlt": "Ein Quiz - ein schriftlicher Test mit mehreren Antwortmöglichkeiten und einer Person, die ihn mit einem Kugelschreiber ausfüllt"
     },
     "info": {
       "title": "Info",
       "description": "Erfahre mehr über DanskNu und dänische Anforderungen",
-      "imageAlt": "Info"
+      "imageAlt": "Ein hohes Gebäude am Hafen von Aarhus, Dänemark namens Dokk1"
     },
     "newsletter": {
       "title": "Newsletter",
       "description": "Abonnieren, um Updates und Tipps zu erhalten",
-      "imageAlt": "Newsletter"
+      "imageAlt": "Ein Reporter, der ein Mikrofon von TV2 hält"
     },
     "applicationRequirements": {
       "title": "Bewerbungsanforderungen",
@@ -59,12 +59,12 @@
     "normalQuiz": {
       "title": "Nimm an einem normalen Quiz teil",
       "description": "Teste dein Wissen mit einer zufälligen Auswahl van Staatsbürgerschaftsprüfungsfragen",
-      "imageAlt": "Nimm an einem normalen Quiz teil"
+      "imageAlt": "Ein Quiz - ein schriftlicher Test mit mehreren Antwortmöglichkeiten und einer Person, die ihn mit einem Kugelschreiber ausfüllt"
     },
     "improve": {
       "title": "Verbessere deine schwachen Bereiche",
       "description": "Nimm an einem personalisierten Quiz basierend auf deinen bisherigen Ergebnissen teil",
-      "imageAlt": "Verbessere deine schwachen Bereiche",
+      "imageAlt": "Eine hölzerne Stehleiter mit einer gezeichneten Fortschrittsspur nach oben",
       "badge": "E-Mail erforderlich"
     }
   },

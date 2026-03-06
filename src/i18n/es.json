@@ -39,17 +39,17 @@
     "quiz": {
       "title": "Quiz",
       "description": "Prueba tus conocimientos con nuestro quiz interactivo",
-      "imageAlt": "Quiz"
+      "imageAlt": "Un cuestionario - una prueba en papel con opciones de opción múltiple y una persona rellenándola con un bolígrafo"
     },
     "info": {
       "title": "Información",
       "description": "Aprende más sobre DanskNu y los requisitos daneses",
-      "imageAlt": "Información"
+      "imageAlt": "Un edificio alto en el puerto de Aarhus, Dinamarca llamado Dokk1"
     },
     "newsletter": {
       "title": "Boletín",
       "description": "Suscríbete para recibir actualizaciones y consejos",
-      "imageAlt": "Boletín"
+      "imageAlt": "Un reportero sosteniendo un micrófono de TV2"
     },
     "applicationRequirements": {
       "title": "Requisitos de Solicitud",
@@ -59,12 +59,12 @@
     "normalQuiz": {
       "title": "Realizar un quiz normal",
       "description": "Prueba tus conocimientos con una selección aleatoria de preguntas del examen de ciudadanía",
-      "imageAlt": "Realizar un quiz normal"
+      "imageAlt": "Un cuestionario - una prueba en papel con opciones de opción múltiple y una persona rellenándola con un bolígrafo"
     },
     "improve": {
       "title": "Mejorar tus áreas débiles",
       "description": "Realiza un quiz personalizado según tus resultados anteriores",
-      "imageAlt": "Mejorar tus áreas débiles",
+      "imageAlt": "Una escalera de madera con un rastro dibujado de progreso hacia arriba",
       "badge": "Correo electrónico requerido"
     }
   },

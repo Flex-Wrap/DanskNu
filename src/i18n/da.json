@@ -39,17 +39,17 @@
     "quiz": {
       "title": "Quiz",
       "description": "Test din viden med vores interactive quiz",
-      "imageAlt": "Quiz"
+      "imageAlt": "En prøve - en test på papir med multiple choice muligheder og en person der udfylder den med en kuglepen"
     },
     "info": {
       "title": "Info",
       "description": "Lær mere om DanskNu og danske krav",
-      "imageAlt": "Info"
+      "imageAlt": "En høj bygning ved havnen i Aarhus, Danmark kaldet Dokk1"
     },
     "newsletter": {
       "title": "Nyhedsbrev",
       "description": "Abonner for at få opdateringer og tips",
-      "imageAlt": "Nyhedsbrev"
+      "imageAlt": "En reporter der holder en mikrofon fra TV2"
     },
     "applicationRequirements": {
       "title": "Ansøgningskrav",
@@ -59,12 +59,12 @@
     "normalQuiz": {
       "title": "Tag en almindelig quiz",
       "description": "Test din viden med et tilfældigt udvalg af statsborgerskabsprøvespørgsmål",
-      "imageAlt": "Tag en almindelig quiz"
+      "imageAlt": "En prøve - en test på papir med multiple choice muligheder og en person der udfylder den med en kuglepen"
     },
     "improve": {
       "title": "Forbedre dine svage områder",
       "description": "Tag en personaliseret quiz baseret på dine tidligere resultater",
-      "imageAlt": "Forbedre dine svage områder",
+      "imageAlt": "En trætrappe med et tegnet spor af fremskridt opad",
       "badge": "E-mail påkrævet"
     }
   },
