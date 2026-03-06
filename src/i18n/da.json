@@ -1,0 +1,126 @@
+{
+  "common": {
+    "back": "Tilbage",
+    "tryAgain": "Prøv igen",
+    "submit": "Send",
+    "loadingQuestions": "Indlæser spørgsmål...",
+    "loadingQuiz": "Indlæser quiz..."
+  },
+  "pages": {
+    "home": {
+      "title": "Hjem",
+      "welcome": "Velkommen til DanskNu. Vi er her for at hjælpe dig gennem din integrationsvej og guide dig mod at blive dansk."
+    },
+    "quiz": {
+      "title": "Quiz",
+      "welcome": "Velkommen til quizzen. Her kan du træne til den danske statsborgerskabsprøve. Test din viden om dansk kultur, historie, samfund og værdier."
+    },
+    "info": {
+      "title": "Info"
+    },
+    "newsletter": {
+      "title": "Nyhedsbrev"
+    },
+    "applicationRequirements": {
+      "title": "Krav"
+    }
+  },
+  "navigation": {
+    "quiz": {
+      "title": "Quiz",
+      "description": "Test din viden med vores interactive quiz",
+      "imageAlt": "Quiz"
+    },
+    "info": {
+      "title": "Info",
+      "description": "Lær mere om DanskNu og danske krav",
+      "imageAlt": "Info"
+    },
+    "newsletter": {
+      "title": "Nyhedsbrev",
+      "description": "Abonner for at få opdateringer og tips",
+      "imageAlt": "Nyhedsbrev"
+    },
+    "applicationRequirements": {
+      "title": "Ansøgningskrav",
+      "description": "Komplet liste over krav til dansk statsborgerskab",
+      "imageAlt": "Ansøgningskrav"
+    },
+    "normalQuiz": {
+      "title": "Tag en almindelig quiz",
+      "description": "Test din viden med et tilfældigt udvalg af statsborgerskabsprøvespørgsmål",
+      "imageAlt": "Tag en almindelig quiz"
+    },
+    "improveWeakAreas": {
+      "title": "Forbedre dine svage områder",
+      "description": "Tag en personaliseret quiz baseret på dine tidligere resultater",
+      "imageAlt": "Forbedre dine svage områder",
+      "badge": "E-mail påkrævet"
+    }
+  },
+  "infoCards": {
+    "danishNationalityExam": {
+      "title": "Dansk statsborgerskabsprøve",
+      "description": "Officiel eksamen for ansøgere til dansk statsborgerskab"
+    },
+    "danishLanguageExam": {
+      "title": "Dansk sprogprøve",
+      "description": "Bevis for dansk sprogfærdighed påkrævet til integration"
+    },
+    "naturalizationApplication": {
+      "title": "Naturaliseringsansøgning",
+      "description": "Indleveringsfrist for ansøgning om statsborgerskab"
+    }
+  },
+  "modals": {
+    "danishNationalityExam": {
+      "title": "Dansk statsborgerskabsprøve",
+      "content": "Den danske statsborgerskabsprøve vurderer din viden om dansk kultur, historie, samfund og værdier. Denne eksamen er et vigtigt trin på vejen til at blive dansk borger.",
+      "keyInformation": "Vigtige informationer:",
+      "duration": "Varighed: ca. 45 minutter",
+      "format": "Format: Multiple choice spørgsmål",
+      "passingScore": "Beståelsesscore: 40 ud af 60 point",
+      "cost": "Cost: DKK 1.000 (omkring €135)"
+    },
+    "danishLanguageExam": {
+      "title": "Dansk sprogprøve",
+      "content": "Den danske sprogprøve vurderer din færdighed i at læse, skrive, høre og tale dansk. Det er et krav for at demonstrere integrationsevne og er ofte påkrævet ved ansøgninger om statsborgerskab.",
+      "keyInformation": "Vigtige informationer:",
+      "duration": "Varighed: 3-4 timer afhængigt af niveau",
+      "levels": "Niveauer: A2, B1, B2",
+      "passingScore": "Beståelsesscore: Mindst B1 niveau påkrævet",
+      "format": "Format: Skriftlige og mundtlige komponenter"
+    },
+    "naturalizationApplication": {
+      "title": "Naturaliseringsansøgning",
+      "content": "Naturaliseringsprocessen giver dig mulighed for formelt at ansøge om dansk statsborgerskab. Dette er det sidste trin efter at have opfyldt alle krav, herunder sprogfærdighed og statsborgerskabsprøve.",
+      "keyInformation": "Vigtige informationer:",
+      "requiredDocuments": "Påkrævede dokumenter: Pas, sprogcertifikat, bevis for statsborgerskabsprøve",
+      "processingTime": "Behandlingstid: 3-6 måneder",
+      "applicationFee": "Ansøgningsgebyr: DKK 2.650 (omkring €355)",
+      "submitTo": "Indsend ansøgninger til: Den danske Immigrationsstyrelse"
+    }
+  },
+  "forms": {
+    "emailForm": {
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "dig@eksempel.dk",
+      "submitButton": "Start Quiz"
+    }
+  },
+  "quizResults": {
+    "title": "Quiz færdig!",
+    "scoreLabel": "Din score",
+    "messages": {
+      "success": "Flott resultat! Men bliv skarp!",
+      "warning": "Næsten der! Du kan gøre det!",
+      "failure": "Det er hvad quizzer handler om! Fortsæt med at øve dig!"
+    }
+  },
+  "applicationRequirementsTitles": {
+    "generalInformation": "Generel information om erhvervelse af dansk statsborgerskab",
+    "declarationOfAllegiance": "Du skal underskrive en erklæring om loyalitet",
+    "permanentResidencePermit": "Du skal have opholdstilladelse",
+    "beingResident": "At være bosiddende i Danmark"
+  }
+}

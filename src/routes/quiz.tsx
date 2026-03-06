@@ -1,4 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { useTranslation } from 'react-i18next'
 import { usePageTitle } from '../context/PageTitleContext'
 import NavigationCard from '../components/NavigationCard'
 import quizzImage from '../assets/quizz.webp'
@@ -9,20 +10,21 @@ export const Route = createFileRoute('/quiz')({
 })
 
 function QuizPage() {
+  const { t } = useTranslation()
   usePageTitle('Quiz')
   return (
     <section>
       <p>
-        Welcome to the Quiz. Here you can practice for the Danish citizenship exam. Test your knowledge of Danish culture, history, society, and values.
+        {t('pages.quiz.welcome')}
       </p>
       
       <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1rem', marginTop: '2rem' }}>
         <NavigationCard
           to="/normal-quizz"
-          title="Take a Normal Quiz"
-          description="Test your knowledge with a random selection of citizenship exam questions"
+          title={t('navigation.normalQuiz.title')}
+          description={t('navigation.normalQuiz.description')}
           image={quizzImage}
-          imageAlt="Take a Normal Quiz"
+          imageAlt={t('navigation.normalQuiz.imageAlt')}
         />
         
         <div style={{ position: 'relative' }}>
@@ -39,14 +41,14 @@ function QuizPage() {
             textTransform: 'uppercase',
             zIndex: 10
           }}>
-            Email Required
+            {t('navigation.improveWeakAreas.badge')}
           </span>
           <NavigationCard
             to="/improve-quizz"
-            title="Improve Your Weak Areas"
-            description="Take a personalized quiz based on your previous results"
+            title={t('navigation.improveWeakAreas.title')}
+            description={t('navigation.improveWeakAreas.description')}
             image={improveImage}
-            imageAlt="Improve Your Weak Areas"
+            imageAlt={t('navigation.improveWeakAreas.imageAlt')}
           />
         </div>
       </div>

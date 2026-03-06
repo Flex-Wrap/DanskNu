@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { usePageTitle } from '../context/PageTitleContext'
 import { fetchAllQuestions } from '../utils/supabase'
 import Quiz, { type QuestionWithAnswers } from '../components/Quiz'
@@ -9,6 +10,7 @@ export const Route = createFileRoute('/normal-quizz')({
 })
 
 function NormalQuizzPage() {
+  const { t } = useTranslation()
   usePageTitle('Normal Quiz')
   const [questions, setQuestions] = useState<QuestionWithAnswers[]>([])
   const [loading, setLoading] = useState(true)
@@ -37,7 +39,7 @@ function NormalQuizzPage() {
   if (loading) {
     return (
       <section>
-        <p>Loading questions...</p>
+        <p>{t('common.loadingQuestions')}</p>
       </section>
     )
   }

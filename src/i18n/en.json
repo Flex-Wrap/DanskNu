@@ -1,0 +1,126 @@
+{
+  "common": {
+    "back": "Back",
+    "tryAgain": "Try Again",
+    "submit": "Submit",
+    "loadingQuestions": "Loading questions...",
+    "loadingQuiz": "Loading quiz..."
+  },
+  "pages": {
+    "home": {
+      "title": "Home",
+      "welcome": "Welcome to DanskNu. We're here to help you through your integration journey and guide you towards becoming Danish."
+    },
+    "quiz": {
+      "title": "Quiz",
+      "welcome": "Welcome to the Quiz. Here you can practice for the Danish citizenship exam. Test your knowledge of Danish culture, history, society, and values."
+    },
+    "info": {
+      "title": "Info"
+    },
+    "newsletter": {
+      "title": "Newsletter"
+    },
+    "applicationRequirements": {
+      "title": "Requirements"
+    }
+  },
+  "navigation": {
+    "quiz": {
+      "title": "Quiz",
+      "description": "Test your knowledge with our interactive quiz",
+      "imageAlt": "Quiz"
+    },
+    "info": {
+      "title": "Info",
+      "description": "Learn more about DanskNu and Danish language",
+      "imageAlt": "Info"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Subscribe to get updates and tips",
+      "imageAlt": "Newsletter"
+    },
+    "applicationRequirements": {
+      "title": "Application Requirements",
+      "description": "Complete list of requirements for Danish citizenship",
+      "imageAlt": "Application Requirements"
+    },
+    "normalQuiz": {
+      "title": "Take a Normal Quiz",
+      "description": "Test your knowledge with a random selection of citizenship exam questions",
+      "imageAlt": "Take a Normal Quiz"
+    },
+    "improveWeakAreas": {
+      "title": "Improve Your Weak Areas",
+      "description": "Take a personalized quiz based on your previous results",
+      "imageAlt": "Improve Your Weak Areas",
+      "badge": "Email Required"
+    }
+  },
+  "infoCards": {
+    "danishNationalityExam": {
+      "title": "Danish Nationality Exam",
+      "description": "Official examination for Danish citizenship applicants"
+    },
+    "danishLanguageExam": {
+      "title": "Danish Language Exam",
+      "description": "Proof of Danish language proficiency required for integration"
+    },
+    "naturalizationApplication": {
+      "title": "Naturalization Application",
+      "description": "Submission deadline for citizenship request"
+    }
+  },
+  "modals": {
+    "danishNationalityExam": {
+      "title": "Danish Nationality Exam",
+      "content": "The Danish Nationality Exam, officially known as the Danish Citizenship Test, assesses your knowledge of Danish culture, history, society, and values. This examination is a crucial step in your path to becoming a Danish citizen.",
+      "keyInformation": "Key Information:",
+      "duration": "Duration: Approximately 45 minutes",
+      "format": "Format: Multiple choice questions",
+      "passingScore": "Passing score: 40 out of 60 points",
+      "cost": "Cost: DKK 1,000 (approximately €135)"
+    },
+    "danishLanguageExam": {
+      "title": "Danish Language Exam",
+      "content": "The Danish Language Exam evaluates your proficiency in reading, writing, listening, and speaking Danish. It's a requirement for demonstrating integration competency and is often required for citizenship applications.",
+      "keyInformation": "Key Information:",
+      "duration": "Duration: 3-4 hours depending on the level",
+      "levels": "Levels: A2, B1, B2",
+      "passingScore": "Passing score: Minimum B1 level typically required",
+      "format": "Format: Written and oral components"
+    },
+    "naturalizationApplication": {
+      "title": "Naturalization Application",
+      "content": "The naturalization process allows you to formally apply for Danish citizenship. This is the final step after meeting all requirements including language proficiency and citizenship test.",
+      "keyInformation": "Key Information:",
+      "requiredDocuments": "Required documents: Passport, language certificate, citizenship test proof",
+      "processingTime": "Processing time: 3-6 months",
+      "applicationFee": "Application fee: DKK 2,650 (approximately €355)",
+      "submitTo": "Submit applications to: The Danish Immigration Service"
+    }
+  },
+  "forms": {
+    "emailForm": {
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "submitButton": "Start Quiz"
+    }
+  },
+  "quizResults": {
+    "title": "Quiz Complete!",
+    "scoreLabel": "Your Score",
+    "messages": {
+      "success": "Great result! But stay sharp!",
+      "warning": "Almost there! You got this!",
+      "failure": "This is what quizzes are for! Keep practicing!"
+    }
+  },
+  "applicationRequirementsTitles": {
+    "generalInformation": "General Information on Acquisition of Danish Citizenship",
+    "declarationOfAllegiance": "You Must Sign a Declaration of Allegiance and Loyalty",
+    "permanentResidencePermit": "You Must Have a Permanent Residence Permit",
+    "beingResident": "Being a Resident in Denmark"
+  }
+}

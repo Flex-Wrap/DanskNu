@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { usePageTitle } from '../context/PageTitleContext'
 import { 
   checkUserExists, 
@@ -15,6 +16,7 @@ export const Route = createFileRoute('/improve-quizz')({
 })
 
 function ImproveQuizzPage() {
+  const { t } = useTranslation()
   usePageTitle('Improve Quiz')
   const [email, setEmail] = useState<string | null>(null)
   const [questions, setQuestions] = useState<QuestionWithAnswers[]>([])
@@ -85,7 +87,7 @@ function ImproveQuizzPage() {
   if (loading) {
     return (
       <section>
-        <p>Loading quiz...</p>
+        <p>{t('common.loadingQuiz')}</p>
       </section>
     )
   }

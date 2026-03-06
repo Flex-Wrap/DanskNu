@@ -1,0 +1,126 @@
+{
+  "common": {
+    "back": "Zurück",
+    "tryAgain": "Nochmal versuchen",
+    "submit": "Absenden",
+    "loadingQuestions": "Fragen werden geladen...",
+    "loadingQuiz": "Quiz wird geladen..."
+  },
+  "pages": {
+    "home": {
+      "title": "Startseite",
+      "welcome": "Willkommen bei DanskNu. Wir sind hier, um dich auf deinem Integrationswege zu unterstützen und dich auf dem Weg zum dänischen Bürger zu führen."
+    },
+    "quiz": {
+      "title": "Quiz",
+      "welcome": "Willkommen zum Quiz. Hier kannst du dich auf die dänische Staatsbürgerschaftsprüfung vorbereiten. Teste dein Wissen über dänische Kultur, Geschichte, Gesellschaft und Werte."
+    },
+    "info": {
+      "title": "Info"
+    },
+    "newsletter": {
+      "title": "Newsletter"
+    },
+    "applicationRequirements": {
+      "title": "Anforderungen"
+    }
+  },
+  "navigation": {
+    "quiz": {
+      "title": "Quiz",
+      "description": "Teste dein Wissen mit unserem interaktiven Quiz",
+      "imageAlt": "Quiz"
+    },
+    "info": {
+      "title": "Info",
+      "description": "Erfahre mehr über DanskNu und dänische Anforderungen",
+      "imageAlt": "Info"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Abonnieren, um Updates und Tipps zu erhalten",
+      "imageAlt": "Newsletter"
+    },
+    "applicationRequirements": {
+      "title": "Bewerbungsanforderungen",
+      "description": "Vollständige Liste der Anforderungen für die dänische Staatsbürgerschaft",
+      "imageAlt": "Bewerbungsanforderungen"
+    },
+    "normalQuiz": {
+      "title": "Nimm an einem normalen Quiz teil",
+      "description": "Teste dein Wissen mit einer zufälligen Auswahl van Staatsbürgerschaftsprüfungsfragen",
+      "imageAlt": "Nimm an einem normalen Quiz teil"
+    },
+    "improveWeakAreas": {
+      "title": "Verbessere deine schwachen Bereiche",
+      "description": "Nimm an einem personalisierten Quiz basierend auf deinen bisherigen Ergebnissen teil",
+      "imageAlt": "Verbessere deine schwachen Bereiche",
+      "badge": "E-Mail erforderlich"
+    }
+  },
+  "infoCards": {
+    "danishNationalityExam": {
+      "title": "Dänische Staatsbürgerschaftsprüfung",
+      "description": "Offizielle Prüfung für Antragsteller der dänischen Staatsbürgerschaft"
+    },
+    "danishLanguageExam": {
+      "title": "Dänische Sprachprüfung",
+      "description": "Nachweis der dänischen Sprachkompetenz, erforderlich für die Integration"
+    },
+    "naturalizationApplication": {
+      "title": "Einbürgerungsantrag",
+      "description": "Einreichungsfrist für den Antrag auf Staatsbürgerschaft"
+    }
+  },
+  "modals": {
+    "danishNationalityExam": {
+      "title": "Dänische Staatsbürgerschaftsprüfung",
+      "content": "Die dänische Staatsbürgerschaftsprüfung bewertet dein Wissen über dänische Kultur, Geschichte, Gesellschaft und Werte. Diese Prüfung ist ein wichtiger Schritt auf deinem Weg zum dänischen Bürger.",
+      "keyInformation": "Wichtige Informationen:",
+      "duration": "Dauer: Etwa 45 Minuten",
+      "format": "Format: Multiple-Choice-Fragen",
+      "passingScore": "Bestandene Punktzahl: 40 von 60 Punkten",
+      "cost": "Kosten: DKK 1.000 (ca. €135)"
+    },
+    "danishLanguageExam": {
+      "title": "Dänische Sprachprüfung",
+      "content": "Die dänische Sprachprüfung bewertet deine Kompetenz im Lesen, Schreiben, Hören und Sprechen der dänischen Sprache. Es ist eine Voraussetzung für den Nachweis der Integrationskompetenz und wird oft für Anträge auf Staatsbürgerschaft verlangt.",
+      "keyInformation": "Wichtige Informationen:",
+      "duration": "Dauer: 3-4 Stunden je nach Stufe",
+      "levels": "Niveaus: A2, B1, B2",
+      "passingScore": "Bestandene Punktzahl: Mindestens B1-Niveau erforderlich",
+      "format": "Format: Schriftliche und mündliche Komponenten"
+    },
+    "naturalizationApplication": {
+      "title": "Einbürgerungsantrag",
+      "content": "Das Einbürgerungsverfahren ermöglicht es dir, offiziell die dänische Staatsbürgerschaft zu beantragen. Dies ist der letzte Schritt nach Erfüllung aller Anforderungen, einschließlich Sprachkompetenz und Staatsbürgerschaftsprüfung.",
+      "keyInformation": "Wichtige Informationen:",
+      "requiredDocuments": "Erforderliche Dokumente: Pass, Sprachzertifikat, Nachweis der Staatsbürgerschaftsprüfung",
+      "processingTime": "Bearbeitungszeit: 3-6 Monate",
+      "applicationFee": "Antragsgebür: DKK 2.650 (ca. €355)",
+      "submitTo": "Anträge einreichen an: Der dänischen Einwanderungsdienst"
+    }
+  },
+  "forms": {
+    "emailForm": {
+      "emailLabel": "E-Mail",
+      "emailPlaceholder": "du@beispiel.de",
+      "submitButton": "Quiz starten"
+    }
+  },
+  "quizResults": {
+    "title": "Quiz abgeschlossen!",
+    "scoreLabel": "Deine Punktzahl",
+    "messages": {
+      "success": "Großartig! Aber achten Sie auf Ihre Leistung!",
+      "warning": "Fast geschafft! Du schaffst das!",
+      "failure": "Dafür sind Quiz da! Weiter üben!"
+    }
+  },
+  "applicationRequirementsTitles": {
+    "generalInformation": "Allgemeine Informationen zum Erwerb der dänischen Staatsbürgerschaft",
+    "declarationOfAllegiance": "Du musst eine Loyalitätserklärung unterzeichnen",
+    "permanentResidencePermit": "Du brauchst eine Aufenthaltserlaubnis",
+    "beingResident": "Wohnhaft in Dänemark sein"
+  }
+}

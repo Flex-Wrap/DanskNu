@@ -1,0 +1,126 @@
+{
+  "common": {
+    "back": "Wróć",
+    "tryAgain": "Spróbuj ponownie",
+    "submit": "Wyślij",
+    "loadingQuestions": "Ładowanie pytań...",
+    "loadingQuiz": "Ładowanie quizu..."
+  },
+  "pages": {
+    "home": {
+      "title": "Strona główna",
+      "welcome": "Witaj w DanskNu. Jesteśmy tutaj, aby pomóc ci w twojej podróży integracyjnej i poprowadzić cię do zostania obywatelem duńskim."
+    },
+    "quiz": {
+      "title": "Quiz",
+      "welcome": "Witaj w quizie. Tutaj możesz się przygotować do duńskiego egzaminu obywatelskiego. Przetestuj swoją wiedzę o duńskiej kulturze, historii, społeczeństwie i wartościach."
+    },
+    "info": {
+      "title": "Informacja"
+    },
+    "newsletter": {
+      "title": "Biuletyn"
+    },
+    "applicationRequirements": {
+      "title": "Wymagania"
+    }
+  },
+  "navigation": {
+    "quiz": {
+      "title": "Quiz",
+      "description": "Przetestuj swoją wiedzę za pomocą naszego interaktywnego quizu",
+      "imageAlt": "Quiz"
+    },
+    "info": {
+      "title": "Informacja",
+      "description": "Dowiedz się więcej o DanskNu i wymaganiach duńskich",
+      "imageAlt": "Informacja"
+    },
+    "newsletter": {
+      "title": "Biuletyn",
+      "description": "Zasubskrybuj, aby otrzymywać aktualizacje i porady",
+      "imageAlt": "Biuletyn"
+    },
+    "applicationRequirements": {
+      "title": "Wymagania aplikacji",
+      "description": "Pełna lista wymagań dotyczących obywatelstwa duńskiego",
+      "imageAlt": "Wymagania aplikacji"
+    },
+    "normalQuiz": {
+      "title": "Weź udział w zwykłym quizie",
+      "description": "Przetestuj swoją wiedzę dzięki losowemu wyborowi pytań z egzaminu obywatelskiego",
+      "imageAlt": "Weź udział w zwykłym quizie"
+    },
+    "improveWeakAreas": {
+      "title": "Popraw swoje słabe punkty",
+      "description": "Weź udział w spersonalizowanym quizie na podstawie twoich poprzednich wyników",
+      "imageAlt": "Popraw swoje słabe punkty",
+      "badge": "Wymagany adres e-mail"
+    }
+  },
+  "infoCards": {
+    "danishNationalityExam": {
+      "title": "Duński egzamin obywatelski",
+      "description": "Oficjalny egzamin dla kandydatów do obywatelstwa duńskiego"
+    },
+    "danishLanguageExam": {
+      "title": "Duński egzamin z języka",
+      "description": "Dowód biegłości w języku duńskim wymagany dla integracji"
+    },
+    "naturalizationApplication": {
+      "title": "Wniosek o naturalizację",
+      "description": "Termin składania wniosku o obywatelstwo"
+    }
+  },
+  "modals": {
+    "danishNationalityExam": {
+      "title": "Duński egzamin obywatelski",
+      "content": "Duński egzamin obywatelski ocenia twoją wiedzę na temat duńskiej kultury, historii, społeczeństwa i wartości. Ten egzamin jest kluczowym krokiem na twojej drodze do zostania obywatelem duńskim.",
+      "keyInformation": "Ważne informacje:",
+      "duration": "Czas trwania: Około 45 minut",
+      "format": "Format: Pytania wielokrotnego wyboru",
+      "passingScore": "Punktacja zaliczenia: 40 z 60 punktów",
+      "cost": "Koszt: DKK 1 000 (około €135)"
+    },
+    "danishLanguageExam": {
+      "title": "Duński egzamin z języka",
+      "content": "Duński egzamin z języka ocenia twoją umiejętność czytania, pisania, słuchania i mówienia po duńsku. Jest to wymóg wykazania kompetencji integracyjnych i często wymagane dla wniosków o obywatelstwo.",
+      "keyInformation": "Ważne informacje:",
+      "duration": "Czas trwania: 3-4 godziny w zależności od poziomu",
+      "levels": "Poziomy: A2, B1, B2",
+      "passingScore": "Punktacja zaliczenia: Wymagany co najmniej poziom B1",
+      "format": "Format: Komponenty pisemne i ustne"
+    },
+    "naturalizationApplication": {
+      "title": "Wniosek o naturalizację",
+      "content": "Proces naturalizacji umożliwia formalnie ubieganie się o obywatelstwo duńskie. Jest to ostatni etap po spełnieniu wszystkich wymagań, w tym biegłości w języku i egzaminu obywatelskiego.",
+      "keyInformation": "Ważne informacje:",
+      "requiredDocuments": "Wymagane dokumenty: Paszport, certifikat językowy, potwierdzenie egzaminu obywatelskiego",
+      "processingTime": "Czas przetwarzania: 3-6 miesięcy",
+      "applicationFee": "Opłata za wniosek: DKK 2 650 (około €355)",
+      "submitTo": "Wniosek należy przesłać do: Duńskiego Urzędu Imigracji"
+    }
+  },
+  "forms": {
+    "emailForm": {
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "ty@przykład.pl",
+      "submitButton": "Rozpocznij Quiz"
+    }
+  },
+  "quizResults": {
+    "title": "Quiz ukończony!",
+    "scoreLabel": "Twój wynik",
+    "messages": {
+      "success": "Świetny wynik! Ale pozostań czujny!",
+      "warning": "Prawie się robi! Sobie dasz radę!",
+      "failure": "Do tego służą quizy! Dalej ćwicz!"
+    }
+  },
+  "applicationRequirementsTitles": {
+    "generalInformation": "Ogólne informacje na temat nabywania obywatelstwa duńskiego",
+    "declarationOfAllegiance": "Musisz podpisać oświadczenie o lojalności",
+    "permanentResidencePermit": "Musisz posiadać pozwolenie na pobyt stały",
+    "beingResident": "Bycie rezydentem Danii"
+  }
+}

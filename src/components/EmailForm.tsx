@@ -1,4 +1,5 @@
 import { useState, type FormEvent } from 'react'
+import { useTranslation } from 'react-i18next'
 import styles from './EmailForm.module.css'
 
 interface EmailFormProps {
@@ -6,6 +7,7 @@ interface EmailFormProps {
 }
 
 export default function EmailForm({ onSubmit }: EmailFormProps) {
+  const { t } = useTranslation()
   const [email, setEmail] = useState('')
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
@@ -19,14 +21,14 @@ export default function EmailForm({ onSubmit }: EmailFormProps) {
     <form onSubmit={handleSubmit} className={styles.form}>
       <div className={styles.formGroup}>
         <label htmlFor="email" className={styles.label}>
-          Email
+          {t('forms.emailForm.emailLabel')}
         </label>
         <input
           id="email"
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="you@example.com"
+          placeholder={t('forms.emailForm.emailPlaceholder')}
           className={styles.input}
           required
           aria-required="true"
@@ -34,7 +36,7 @@ export default function EmailForm({ onSubmit }: EmailFormProps) {
         />
       </div>
       <button type="submit" className={styles.submitButton}>
-        Start Quiz
+        {t('forms.emailForm.submitButton')}
       </button>
     </form>
   )

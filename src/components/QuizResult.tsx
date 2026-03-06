@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import styles from './QuizResult.module.css'
 
 interface QuizResultProps {
@@ -7,6 +8,7 @@ interface QuizResultProps {
 }
 
 export default function QuizResult({ score, total, onTryAgain }: QuizResultProps) {
+  const { t } = useTranslation()
   const percentage = Math.round((score / total) * 100)
 
   const getResultType = () => {
@@ -17,12 +19,12 @@ export default function QuizResult({ score, total, onTryAgain }: QuizResultProps
 
   const getEncouragementMessage = () => {
     if (resultType === 'success') {
-      return 'Great result! But stay sharp!'
+      return t('quizResults.messages.success')
     }
     if (resultType === 'warning') {
-      return 'Almost there! You got this!'
+      return t('quizResults.messages.warning')
     }
-    return 'This is what quizzes are for! Keep practicing!'
+    return t('quizResults.messages.failure')
   }
 
   const resultType = getResultType()
@@ -30,7 +32,7 @@ export default function QuizResult({ score, total, onTryAgain }: QuizResultProps
 
   return (
     <section className={styles.container}>
-      <h2 className={styles.title}>Quiz Complete!</h2>
+      <h2 className={styles.title}>{t('quizResults.title')}</h2>
 
       <div className={`${styles.iconContainer} ${styles[resultType]}`}>
         {resultType === 'success' && (
@@ -47,7 +49,7 @@ export default function QuizResult({ score, total, onTryAgain }: QuizResultProps
       <p className={styles.encouragement}>{encouragementMessage}</p>
 
       <div className={styles.scoreSection}>
-        <h3 className={styles.scoreLabel}>Your Score</h3>
+        <h3 className={styles.scoreLabel}>{t('quizResults.scoreLabel')}</h3>
         <p className={styles.score}>
           {score} / {total}
         </p>
@@ -55,7 +57,7 @@ export default function QuizResult({ score, total, onTryAgain }: QuizResultProps
       </div>
 
       <button onClick={onTryAgain} className={styles.tryAgainButton}>
-        Try Again
+        {t('common.tryAgain')}
       </button>
     </section>
   )

@@ -1,5 +1,6 @@
 import { Outlet, createRootRoute } from '@tanstack/react-router'
 import BackButton from '../components/BackButton'
+import LanguageSwitcher from '../components/LanguageSwitcher'
 import { PageTitleProvider, usePageTitleValue } from '../context/PageTitleContext'
 
 export const Route = createRootRoute({
@@ -14,6 +15,7 @@ function RootLayoutContent() {
       <header className="app-header">
         <BackButton />
         <h1 className="page-title">{pageTitle}</h1>
+        <LanguageSwitcher />
       </header>
       <main>
         <Outlet />

@@ -3,6 +3,8 @@ import { createRoot } from 'react-dom/client'
 import { RouterProvider, createRouter } from '@tanstack/react-router'
 import { routeTree } from './routeTree.gen'
 import './index.css'
+import './i18n/config'
+import 'flag-icons/css/flag-icons.min.css'
 
 const router = createRouter({ routeTree, basepath: '/DanskNu' })
 

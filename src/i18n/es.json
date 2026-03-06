@@ -1,0 +1,126 @@
+{
+  "common": {
+    "back": "Atrás",
+    "tryAgain": "Intentar de nuevo",
+    "submit": "Enviar",
+    "loadingQuestions": "Cargando preguntas...",
+    "loadingQuiz": "Cargando quiz..."
+  },
+  "pages": {
+    "home": {
+      "title": "Inicio",
+      "welcome": "Bienvenido a DanskNu. Estamos aquí para ayudarte en tu viaje de integración y guiarte hacia convertirte en ciudadano danés."
+    },
+    "quiz": {
+      "title": "Quiz",
+      "welcome": "Bienvenido al quiz. Aquí puedes practicar para el examen de ciudadanía danesa. Prueba tu conocimiento de la cultura, historia, sociedad y valores daneses."
+    },
+    "info": {
+      "title": "Información"
+    },
+    "newsletter": {
+      "title": "Boletín"
+    },
+    "applicationRequirements": {
+      "title": "Requisitos"
+    }
+  },
+  "navigation": {
+    "quiz": {
+      "title": "Quiz",
+      "description": "Prueba tus conocimientos con nuestro quiz interactivo",
+      "imageAlt": "Quiz"
+    },
+    "info": {
+      "title": "Información",
+      "description": "Aprende más sobre DanskNu y los requisitos daneses",
+      "imageAlt": "Información"
+    },
+    "newsletter": {
+      "title": "Boletín",
+      "description": "Suscríbete para recibir actualizaciones y consejos",
+      "imageAlt": "Boletín"
+    },
+    "applicationRequirements": {
+      "title": "Requisitos de Solicitud",
+      "description": "Lista completa de requisitos para la ciudadanía danesa",
+      "imageAlt": "Requisitos de Solicitud"
+    },
+    "normalQuiz": {
+      "title": "Realizar un quiz normal",
+      "description": "Prueba tus conocimientos con una selección aleatoria de preguntas del examen de ciudadanía",
+      "imageAlt": "Realizar un quiz normal"
+    },
+    "improveWeakAreas": {
+      "title": "Mejorar tus áreas débiles",
+      "description": "Realiza un quiz personalizado según tus resultados anteriores",
+      "imageAlt": "Mejorar tus áreas débiles",
+      "badge": "Correo electrónico requerido"
+    }
+  },
+  "infoCards": {
+    "danishNationalityExam": {
+      "title": "Examen de nacionalidad danesa",
+      "description": "Examen oficial para solicitantes de ciudadanía danesa"
+    },
+    "danishLanguageExam": {
+      "title": "Examen de idioma danés",
+      "description": "Prueba de competencia lingüística danesa requerida para la integración"
+    },
+    "naturalizationApplication": {
+      "title": "Solicitud de naturalización",
+      "description": "Fecha límite de presentación para la solicitud de ciudadanía"
+    }
+  },
+  "modals": {
+    "danishNationalityExam": {
+      "title": "Examen de nacionalidad danesa",
+      "content": "El examen de nacionalidad danesa evalúa tu conocimiento de la cultura, historia, sociedad y valores daneses. Este examen es un paso crucial en tu camino para convertirte en ciudadano danés.",
+      "keyInformation": "Información clave:",
+      "duration": "Duración: Aproximadamente 45 minutos",
+      "format": "Formato: Preguntas de opción múltiple",
+      "passingScore": "Puntuación de aprobación: 40 de 60 puntos",
+      "cost": "Costo: DKK 1.000 (aproximadamente €135)"
+    },
+    "danishLanguageExam": {
+      "title": "Examen de idioma danés",
+      "content": "El examen de idioma danés evalúa tu competencia en lectura, escritura, comprensión auditiva y expresión oral en danés. Es un requisito para demostrar competencia de integración y a menudo se requiere para solicitudes de ciudadanía.",
+      "keyInformation": "Información clave:",
+      "duration": "Duración: 3-4 horas dependiendo del nivel",
+      "levels": "Niveles: A2, B1, B2",
+      "passingScore": "Puntuación de aprobación: Mínimo nivel B1 requerido",
+      "format": "Formato: Componentes escritos y orales"
+    },
+    "naturalizationApplication": {
+      "title": "Solicitud de naturalización",
+      "content": "El proceso de naturalización te permite solicitar formalmente la ciudadanía danesa. Este es el paso final después de cumplir todos los requisitos, incluida la competencia lingüística y la prueba de ciudadanía.",
+      "keyInformation": "Información clave:",
+      "requiredDocuments": "Documentos requeridos: Pasaporte, certificado de idioma, prueba del examen de ciudadanía",
+      "processingTime": "Tiempo de procesamiento: 3-6 meses",
+      "applicationFee": "Tarifa de solicitud: DKK 2.650 (aproximadamente €355)",
+      "submitTo": "Enviar solicitudes a: El Servicio de Inmigración Danés"
+    }
+  },
+  "forms": {
+    "emailForm": {
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "tu@ejemplo.com",
+      "submitButton": "Iniciar Quiz"
+    }
+  },
+  "quizResults": {
+    "title": "¡Quiz completado!",
+    "scoreLabel": "Tu puntuación",
+    "messages": {
+      "success": "¡Excelente resultado! ¡Pero mantente alerta!",
+      "warning": "¡Casi allá! ¡Puedes hacerlo!",
+      "failure": "¡Para eso son los quizzes! ¡Sigue practicando!"
+    }
+  },
+  "applicationRequirementsTitles": {
+    "generalInformation": "Información general sobre la adquisición de la ciudadanía danesa",
+    "declarationOfAllegiance": "Debes firmar una declaración de lealtad",
+    "permanentResidencePermit": "Debes tener un permiso de residencia permanente",
+    "beingResident": "Ser residente en Dinamarca"
+  }
+}
